@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "entu-ssg": "^5.6.10"
+  },
+  "name": "vhkmatik-website",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": ". ./build.sh",
+    "serve": ". ./serve.sh"
+  },
+  "author": "",
+  "license": "ISC"
+}

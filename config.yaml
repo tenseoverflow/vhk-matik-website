@@ -1,0 +1,16 @@
+locales:
+  - en
+  - et
+defaultLocale: en
+
+source: ./src
+js: ./src/_scripts
+styl: ./src/_styles
+build: ./dist
+
+server:
+  port: 4000
+  public: ./public
+
+dev:
+  aliases: true
