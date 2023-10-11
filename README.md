@@ -1,6 +1,6 @@
 # VHKmatik-Website
 
-## Created using https://entu.site/
+Created using https://entu.site/
 
 ## Installation
 
