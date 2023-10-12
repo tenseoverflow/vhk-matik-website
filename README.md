@@ -4,7 +4,7 @@ Created using https://entu.site/
 
 ## Requirements
 
-NPM and Node
+Up to date versions of: NPM, Node.js and bash
 
 ## Installation
 
