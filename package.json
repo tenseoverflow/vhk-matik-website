@@ -8,8 +8,8 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "build": ". ./build.sh",
-    "serve": ". ./serve.sh"
+    "build": "bash ./build.sh",
+    "serve": "bash ./serve.sh"
   },
   "author": "",
   "license": "ISC"
