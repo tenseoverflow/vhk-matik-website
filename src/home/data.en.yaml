@@ -1,6 +1,4 @@
-path: ''
+path: '/'
+
 aliases:
-  - 'en'
-welcome: VHK Matik Website
-switch_lang_path: /et
-switch_lang: et
+  - '/en/'

@@ -1,3 +1,8 @@
-bg-color: '#ffffff'
-fg-color: '#000000'
 website_title: VHK Matik
+nav:
+  -
+    url: /
+    title: home
+  -
+    url: /teams
+    title: teams
