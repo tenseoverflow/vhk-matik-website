@@ -2,3 +2,7 @@
     for i in self.nav
         div
             a(href=i.url)=i.title
+
+.nav-lang
+    each p, locale in self.otherLocalePaths
+        a(href= p)= locale
