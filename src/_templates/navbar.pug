@@ -1,7 +1,14 @@
 .nav-content
     for i in self.nav
         div
-            a(href=i.url)=i.title
+            if i.url
+                a(href=i.url)=i.title
+            else
+                ul.dropdown teams
+                    div
+                        for j in i 
+                            li
+                                a(href=j.url)=j.title
 
 .nav-lang
     each p, locale in self.otherLocalePaths

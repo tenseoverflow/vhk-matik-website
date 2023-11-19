@@ -1,11 +1,15 @@
 website_title: VHK Matik
 nav:
-  -
-    url: /et/
+  home:
     title: kodu
-  -
-    url: /et/beegreen
-    title: BeeGreen
-  -
-    url: /et/tiim3
-    title: tiim3
+    url: /et/
+  contact:
+    title: kontakt
+    url: /et/kontakt
+  teams:
+    -
+      title: BeeGreen
+      url: /et/beegreen
+    -
+      title: tiim3
+      url: /et/tiim3
