@@ -1,0 +1,9 @@
+path: '/blog'
+
+aliases:
+  - '/en/blog'
+
+welcome: Blog page
+
+data:
+  articles: '/../compile_dir/articles.en.yaml'

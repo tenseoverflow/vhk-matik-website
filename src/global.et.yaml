@@ -13,3 +13,6 @@ nav:
     -
       title: tiim3
       url: /et/tiim3
+  blog:
+    title: blogi
+    url: /et/blogi
