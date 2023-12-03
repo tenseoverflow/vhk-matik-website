@@ -8,6 +8,16 @@ body
     flex-direction: column
     min-height: 100%
 
+h1
+    text-align: center
+    font-size: 2em
+
+h2
+    font-size: 1.5em
+
+p
+    font-size: 1em
+
 ul
     margin: 0
     padding: 0
@@ -28,10 +38,18 @@ footer
     margin-top: auto
 
 .navbar
+    background: white
+    margin-bottom: 1em
     display: flex
-    padding: 1em
-    margin-bottom: 0.5em
-    border-bottom: 0.15em black solid
+    padding: 1.3em
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2)
+    position: fixed
+    top: 0
+    right: 0
+    left: 0
+
+.nav-spacer
+    margin: 3em
 
 .nav-content
     display: flex
@@ -42,6 +60,7 @@ footer
     margin-left: auto
     font-size: 1.3em
     font-weight: 600
+    text-transform: uppercase
 
 .nav-content > *
     padding-right: 1em
@@ -60,3 +79,11 @@ footer
     
 .dropdown:hover > *
     display: block
+
+// Mobile view
+@media (max-width: 65em)
+    .nav-content
+        font-size: 2em
+    .nav-lang
+        font-size: 2em
+    

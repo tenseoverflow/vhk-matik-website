@@ -1,0 +1,6 @@
+extends /_templates/layout.pug
+
+block content 
+    .blog
+        each article in self.data.articles
+            .blog-post!= self.md(article)

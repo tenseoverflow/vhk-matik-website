@@ -1,0 +1,6 @@
+path: '/blogi'
+
+welcome: Blogi leht
+
+data:
+  articles: '/../compile_dir/articles.et.yaml'
