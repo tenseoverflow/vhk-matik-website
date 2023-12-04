@@ -28,4 +28,4 @@ The website will be running on port 4000 so you can check it here: [http://local
 
 ### Blog posts
 
-To add a blog post create a new **.md** file in the ```blog_posts_et```(estonian) or ```blog_posts_en```(english) folder, depending on language. The file name **needs** to be ```[number]_[title].md``` - the number is for ordering the blog posts (biggest number means newest post - placed on top) and the title is for readability.
+To add a blog post create a new **.md** file in the ```blog_posts_et```(estonian) or ```blog_posts_en```(english) folder, depending on language. The file name **needs** to be ```[number]_[date].md``` - the number is for ordering the blog posts (biggest number means newest post - placed on top) and the date is added to the blog post as publish date (it should be formatted like: ```[day]. [month] [year]```). Example: ```13_5. December 2023``` (```13_5. detsember 2023``` for estonian file).
