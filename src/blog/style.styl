@@ -1,16 +1,6 @@
 body
     background: rgb(234, 234, 234)
 
-h1
-    text-align: center
-    font-size: 2rem
-
-h2
-    font-size: 1.5rem
-
-p
-    font-size: 1rem
-
 .blog-post
     background: white
     padding: 2rem
@@ -18,7 +8,12 @@ p
     width: 50%
     margin: 0 auto 2rem auto
 
-// Mobile view
-@media (max-width: 30em)
+// Mobile view - landscape
+@media (max-device-width: 63em)
     .blog-post
-        width: 90%
+        width: 80%
+
+// Mobile view - portrait
+@media (max-device-width: 30em)
+    .blog-post
+        width: 85%

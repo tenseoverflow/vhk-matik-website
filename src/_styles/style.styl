@@ -8,16 +8,6 @@ body
     flex-direction: column
     min-height: 100%
 
-h1
-    text-align: center
-    font-size: 2rem
-
-h2
-    font-size: 1.5rem
-
-p
-    font-size: 1rem
-
 ul
     margin: 0
     padding: 0
@@ -34,14 +24,13 @@ a:hover
 footer
     background: black
     color: white
-    padding: 0.8rem
     margin-top: auto
+    padding: 0.8em
+    font-size: 0.8em
 
 .navbar
     background: white
-    margin-bottom: 1rem
     display: flex
-    padding: 1.3rem
     box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2)
     position: fixed
     top: 0
@@ -49,16 +38,18 @@ footer
     left: 0
 
 .nav-spacer
-    margin: 3rem
+    margin: 3.5em
 
 .nav-content
     display: flex
-    font-size: 1.3rem
+    padding: 1.3em
+    font-size: 1.3em
     font-weight: 600
 
 .nav-lang
     margin-left: auto
-    font-size: 1.3rem
+    font-size: 1.3em
+    padding: 1.3em
     font-weight: 600
     text-transform: uppercase
 
@@ -71,18 +62,16 @@ footer
     box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2)
     background-color: white
     list-style-type: none
-    padding: 0.5rem
+    padding: 0.5em
 
 .dropdown li
-    margin: 0.5rem
+    margin: 0.5em
     text-decoration: none
     
 .dropdown:hover > *
     display: block
 
 // Mobile view
-@media (max-width: 30em)
-    .nav-content
-        font-size: 2rem
-    .nav-lang
-        font-size: 2rem
+@media (max-device-width: 30em)
+    html
+        font-size: 140%
