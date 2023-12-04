@@ -9,7 +9,7 @@ const compileYaml = './../compile_dir/articles.en.yaml';
 // read file names in format 'number_date.md'
 const blogPostFiles = fs.readdirSync(blogPosts).filter(file => path.extname(file) === '.md');
 
-// order files by number
+// Order files by number
 blogPostFiles.sort((a, b) => {
     const aNumber = parseInt(a.split('_')[0]);
     const bNumber = parseInt(b.split('_')[0]);
@@ -20,7 +20,6 @@ fs.writeFileSync(compileYaml, '');
 
 for (let i = 0; i < blogPostFiles.length; i++) {
     const file = blogPostFiles[i];
-    console.log(file);
     const blogPostDateWithExtention = file.split('_')[1];
     const blogPostDate = blogPostDateWithExtention.substring(0, blogPostDateWithExtention.length - 3);
     const filePath = path.join(blogPosts, file);
