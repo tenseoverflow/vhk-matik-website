@@ -5,7 +5,8 @@ rm -rf ./dist/*
 mkdir -p ./compile_dir
 
 # copy assets folder to dist
-cp -r ./src/_assets ./dist/
+cp -r ./src/_assets ./dist/_assets
+echo "Assets copied to dist"
 
 # run prebuild scripts
 node ./prebuild_scripts/prebuild_blog.en.js
