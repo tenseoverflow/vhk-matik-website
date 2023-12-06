@@ -131,3 +131,4 @@ dist
 
 # More stuff
 .DS_Store
+compile_dir/
