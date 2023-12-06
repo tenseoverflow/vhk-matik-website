@@ -6,13 +6,13 @@ nav:
   contact:
     title: contact
     url: /contact
-  teams:
-    -
-      title: BeeGreen
-      url: /beegreen
-    -
-      title: tiim3
-      url: /tiim3
+  # teams:
+  #   -
+  #     title: BeeGreen
+  #     url: /beegreen
+  #   -
+  #     title: tiim3
+  #     url: /tiim3
   blog:
     title: blog
     url: /blog
