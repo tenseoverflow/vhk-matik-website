@@ -5,7 +5,7 @@ rm -rf ./dist/*
 mkdir -p ./compile_dir
 
 # copy assets folder to dist
-cp -r ./src/_assets ./dist/_assets
+cp -r ./src/_assets ./dist/
 echo "Assets copied to dist"
 
 # run prebuild scripts
