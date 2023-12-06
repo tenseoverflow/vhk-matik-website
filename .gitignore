@@ -131,5 +131,4 @@ dist
 
 # More stuff
 .DS_Store
-compile_dir/aricles.en.yaml
-compile_dir/aricles.et.yaml
+compile_dir/
