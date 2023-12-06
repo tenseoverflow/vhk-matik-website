@@ -131,6 +131,4 @@ dist
 
 # More stuff
 .DS_Store
-compile_dir/*
-compile_dir/articles.en.yaml
-compile_dir/articles.et.yaml
+compile_dir/
