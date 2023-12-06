@@ -5,7 +5,8 @@ rm -rf ./dist/*
 mkdir -p ./compile_dir
 
 # copy assets folder to dist
-cp -r ./src/_assets ./dist/
+mkdir -p ./dist/_assets
+cp -r ./src/_assets ./dist/_assets
 echo "Assets copied to dist"
 # echo contents of dist folder recursively
 ls -R ./dist/
