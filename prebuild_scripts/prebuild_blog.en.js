@@ -13,7 +13,7 @@ const blogPostFiles = fs.readdirSync(blogPosts).filter(file => path.extname(file
 blogPostFiles.sort((a, b) => {
     const aNumber = parseInt(a.split('_')[0]);
     const bNumber = parseInt(b.split('_')[0]);
-    return aNumber - bNumber;
+    return bNumber - aNumber;
 });
 
 fs.writeFileSync(compileYaml, '');
