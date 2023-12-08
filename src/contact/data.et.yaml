@@ -3,6 +3,4 @@ path: '/kontakt'
 
 socialmedia: Sotsiaalmeedia
 
-welcometext: |
-  Soovime Teilt kuulda! 
-  Küsimuste korral v&otilde;tke julgelt &uuml;hendust m&otilde;ne alloleva kanali kaudu v&otilde;i kirjutage email miamirtel.kitt@gmail.com.
+welcometext: "Soovime Teilt kuulda! Küsimuste korral võtke julgelt ühendust mõne alloleva kanali kaudu või kirjutage email miamirtel.kitt@gmail.com."
