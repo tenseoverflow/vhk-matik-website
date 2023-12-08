@@ -2,3 +2,19 @@ path: '/'
 
 aliases:
   - '/en/'
+
+data:
+  articles: '/../compile_dir/articles.en.yaml'
+
+blogTitle: Blog
+readMore: Read more
+aboutUsAsMarkdown:
+  '
+  # About Us
+
+  We are students from the engineering class at Vanalinna Hariduskolleegium and are building electric cars in the MATIK lesson.
+
+  Divided into four teams, each with their own car, we meet regularly once a week, but a large part of the work also gets done outside of class.
+  
+  We have already competed twice in the UK and plan to go again next spring!
+  '

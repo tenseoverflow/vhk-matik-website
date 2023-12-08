@@ -1,4 +1,9 @@
 extends /_templates/layout.pug
 
 block content 
-    | home page
+    .about-us!= self.md(self.aboutUsAsMarkdown)
+
+    .blog-preview
+        h1= self.blogTitle
+        .blog-preview-post!= self.md(self.data.articles[0])
+        a.blog-link(href=self.nav.blog.url)= self.readMore

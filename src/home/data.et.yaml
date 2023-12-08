@@ -1,1 +1,17 @@
 path: '/'
+
+data:
+  articles: '/../compile_dir/articles.et.yaml'
+
+blogTitle: Blogi
+readMore: Loe edasi
+aboutUsAsMarkdown:
+  '
+  # Meist
+
+  Oleme Vanalinna Hariduskolleegiumi inseneeria klassi õpilased ja ehitame MATIKu tunnis elektriautosid.
+
+  Neljaks tiimiks jaotununa, kus igal tiimil on oma auto, saame kokku regulaarselt kord nädalas, aga suur osa tööst toimub ka väljaspool tundi.
+
+  Oleme varem käinud juba kaks korda UK-s võistlemas, ja kavatseme minna ka tuleval kevadel!
+  '

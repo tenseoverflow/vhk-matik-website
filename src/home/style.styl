@@ -1,0 +1,44 @@
+.main
+    width: 65%
+    margin: 0 auto
+
+.about-us
+    font-size: 1.2rem
+
+.blog-preview
+    font-size: 1.2rem
+
+.blog-preview-post
+    padding: 0.1rem 1rem 0.5rem 1rem
+    box-shadow: 0 0 1rem rgba(150, 150, 150, 0.2)
+    border-radius: 0.5rem
+    font-size: 1rem
+
+.blog-preview-post > h6
+    text-align: right
+
+.blog-link
+    margin: 1rem 0 3rem 0
+    padding: 1rem
+    background: rgb(255, 255, 255)
+    border-radius: 0.5rem
+    display: inline-block
+    box-shadow: 0 0 1rem rgba(101, 101, 101, 0.2)
+    text-decoration: none
+
+.blog-link:hover
+    box-shadow: 0 0 1rem rgba(68, 68, 68, 0.4)
+    text-decoration: none
+
+.blog-link:active
+    box-shadow: 0 0 1rem rgba(68, 68, 68, 0.4)
+
+// Mobile view - landscape
+@media (max-device-width: 63em)
+    .main
+        width: 75%
+
+// Mobile view - portrait
+@media (max-device-width: 30em)
+    .main
+        width: 85%
