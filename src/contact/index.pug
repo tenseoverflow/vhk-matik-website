@@ -1,4 +1,17 @@
 extends /_templates/layout.pug
 
 block content 
-    p= self.welcome 
+
+    h1= self.socialmedia
+    br
+    
+    p= self.welcometext
+
+    a(href='https://www.facebook.com/people/VHK-Matik/61553995101015/' target='_blank')
+        img(src='/assets/facebook-770688_1280.png' alt='Facebook')
+    br
+    a(href='https://www.instagram.com/vhk_matik/' target='_blank')
+        img(src='/assets/instagram-1581266_1280-removebg-preview.png' alt='Instagram')
+    br
+    a(href='https://www.youtube.com/@MATIKVHK' target='_blank')
+        img(src='/assets/youtube-1837872_1280.png' alt='Youtube')
