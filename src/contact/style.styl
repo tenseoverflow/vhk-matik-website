@@ -5,22 +5,35 @@ body
   background-color #f2f2f2
 
 .container
-  max-width 600px
+  width 45%
   margin 20px auto
   background-color #ffffff
   padding 20px
   border-radius 8px
   box-shadow 0 0 10px rgba(0, 0, 0, 0.1)
 
-h1
+.social-media-icons
+  text-align center
+
+.container > h1
   color #333333
 
-p
+.container > p
   color #333333
 
-a
+.container > a
   display inline-block
   margin-right 10px
 
 .email
   color #3333FF
+
+// Mobile view - landscape
+@media (max-device-width: 63em)
+    .container
+        width: 75%
+
+// Mobile view - portrait
+@media (max-device-width: 30em)
+    .container
+        width: 80%
