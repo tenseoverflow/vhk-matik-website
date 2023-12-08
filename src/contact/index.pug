@@ -2,16 +2,21 @@ extends /_templates/layout.pug
 
 block content 
 
-    h1= self.socialmedia
-    br
-
-    p= self.welcometext
-    div(style="padding: 10px")
-        a(href='https://www.facebook.com/people/VHK-Matik/61553995101015/' target='_blank' style="padding: 10px")
-            img(src='/assets/facebook-770688_1280.png' alt='Facebook' height='100')
+    .container
+        h1= self.socialmedia
+        br
         
-        a(href='https://www.instagram.com/vhk_matik/' target='_blank' style="padding: 10px")
-            img(src='/assets/instagram-1581266_1280-removebg-preview.png' alt='Instagram' height='100')
-        
-        a(href='https://www.youtube.com/@MATIKVHK' target='_blank' style="padding: 10px")
-            img(src='/assets/youtube-1837872_1280.png' alt='Youtube' height='100')
+        p= self.welcometext
+            a.email(href='mailto:miamirtel.kitt@gmail.com') miamirtel.kitt@gmail.com
+            | .
+    
+        div(style="padding: 10px")
+            
+            a(href='https://www.facebook.com/people/VHK-Matik/61553995101015/' target='_blank' style="padding: 10px")
+                img(src='/assets/facebook-770688_1280.png' alt='Facebook' height='100')
+            
+            a(href='https://www.instagram.com/vhk_matik/' target='_blank' style="padding: 10px")
+                img(src='/assets/instagram-1581266_1280-removebg-preview.png' alt='Instagram' height='100')
+            
+            a(href='https://www.youtube.com/@MATIKVHK' target='_blank' style="padding: 10px")
+                img(src='/assets/youtube-1837872_1280.png' alt='Youtube' height='100')
