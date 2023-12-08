@@ -25,7 +25,9 @@ for (let i = 0; i < blogPostFiles.length; i++) {
     const filePath = path.join(blogPosts, file);
     const fileContent = fs.readFileSync(filePath, 'utf-8');
 
-    const indentedContent = fileContent.split('\n').map(line => '  ' + line).join('\n');
+    // turn every ' into '' (yaml escape)
+    const escapedContent = fileContent.replace(/'/g, "''");
+    const indentedContent = escapedContent.split('\n').map(line => '  ' + line).join('\n');
     const yamlContent = `-\n  '\n  ###### ${blogPostDate}\n\n${indentedContent}'\n`;
     fs.appendFileSync(compileYaml, yamlContent);
 }
