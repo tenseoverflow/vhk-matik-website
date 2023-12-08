@@ -4,7 +4,7 @@ nav:
     title: VHK Matik
     url: /
   contact:
-    title: contact
+    title: Contact
     url: /contact
   # teams:
   #   -
@@ -14,5 +14,5 @@ nav:
   #     title: tiim3
   #     url: /tiim3
   blog:
-    title: blog
+    title: Blog
     url: /blog
