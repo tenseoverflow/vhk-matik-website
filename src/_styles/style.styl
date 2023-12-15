@@ -1,7 +1,7 @@
 footer-bg-color = #1f1f1f;
 bg-color = #272727;
 text-color = rgb(223, 223, 223);
-link-color = #BFA212
+accent-color = #BFA212
 
 html
     height: 100%
@@ -11,6 +11,7 @@ body
     color: text-color
     font-family: Arial, Helvetica, sans-serif
     margin: 0
+    padding: 0
     display: flex
     flex-direction: column
     min-height: 100%
@@ -21,16 +22,16 @@ ul
 
 a
     text-decoration: none
-    color: link-color
+    color: accent-color
     cursor: pointer
 
 a:hover
     text-decoration: underline
-    color: black
+    color: accent-color
 
 footer
     background: footer-bg-color
-    color: white
+    color: text-color
     margin-top: auto
     padding: 0.8em
     font-size: 0.8em
@@ -45,7 +46,7 @@ footer
     left: 0
 
 .nav-spacer
-    margin: 3em
+    margin: 4em
 
 .nav-content
     display: flex
@@ -80,7 +81,7 @@ footer
     display: none
     position: absolute
     box-shadow: 30px 30px 43px #1c1c1c, -30px -30px 43px #323232;
-    background-color: white
+    background-color: bg-color
     list-style-type: none
     padding: 0.5em
 

@@ -1,39 +1,26 @@
-body
-  margin 0
-  padding 0
-  font-family Arial, Helvetica, sans-serif
-  background-color #f2f2f2
+bg-color = #272727
+accent-color = #BFA212
 
 .container
-  width 45%
-  margin 20px auto
-  background-color #ffffff
+  width 50%
+  margin 0 auto
+  background-color: bg-color
   padding 20px
   border-radius 8px
-  box-shadow 0 0 10px rgba(0, 0, 0, 0.1)
+  box-shadow: 30px 30px 43px #1c1c1c, -30px -30px 43px #323232;
 
 .social-media-icons
   text-align center
 
-.container > h1
-  color #333333
-
-.container > p
-  color #333333
-
-.container > a
-  display inline-block
-  margin-right 10px
-
 .email
-  color #3333FF
+  color: accent-color
 
 // Mobile view - landscape
 @media (max-device-width: 63em)
     .container
-        width: 75%
+        width: 80%
 
 // Mobile view - portrait
 @media (max-device-width: 30em)
     .container
-        width: 80%
+        width: 85%
