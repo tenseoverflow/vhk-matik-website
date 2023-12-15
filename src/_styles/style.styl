@@ -1,7 +1,14 @@
+footer-bg-color = #1f1f1f;
+bg-color = #272727;
+text-color = rgb(223, 223, 223);
+link-color = #BFA212
+
 html
     height: 100%
 
 body
+    background: bg-color
+    color: text-color
     font-family: Arial, Helvetica, sans-serif
     margin: 0
     display: flex
@@ -14,7 +21,7 @@ ul
 
 a
     text-decoration: none
-    color: black
+    color: link-color
     cursor: pointer
 
 a:hover
@@ -22,16 +29,16 @@ a:hover
     color: black
 
 footer
-    background: black
+    background: footer-bg-color
     color: white
     margin-top: auto
     padding: 0.8em
     font-size: 0.8em
 
 .navbar
-    background: white
+    background: bg-color
     display: flex
-    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2)
+    box-shadow: 30px 30px 43px #1c1c1c, -30px -30px 43px #323232;
     position: fixed
     top: 0
     right: 0
@@ -72,7 +79,7 @@ footer
 .dropdown > * 
     display: none
     position: absolute
-    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2)
+    box-shadow: 30px 30px 43px #1c1c1c, -30px -30px 43px #323232;
     background-color: white
     list-style-type: none
     padding: 0.5em
