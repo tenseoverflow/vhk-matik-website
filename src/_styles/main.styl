@@ -1,0 +1,128 @@
+// Main styles
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap')
+
+html
+    height: 100%
+
+body
+    background: bg-color
+    color: text-color
+    font-family: 'Source Sans 3', Arial, Helvetica, sans-serif;
+    font-size: 18pt
+    line-height: 1.5
+    margin: 0
+    padding: 0
+    display: flex
+    flex-direction: column
+    min-height: 100%
+
+ul
+    margin: 0
+    padding: 0
+
+// Link styles
+a
+    text-decoration: none
+    color: accent-color
+    cursor: pointer
+
+a:hover
+    text-decoration: underline
+
+// Navbar styles
+.navbar
+    background: bg-color
+    display: flex
+    // box-shadow: 10px 10px 20px #121212, -10px -10px 20px #3c3c3c
+    margin: 0.8em;
+    border-radius: 20px;
+    box-shadow:  41px 41px 82px #141414,
+                 -41px -41px 82px #3a3a3a;
+    position: fixed
+    top: 0
+    right: 0
+    left: 0
+
+// @media (max-device-width: 30em)
+//     .navbar
+
+
+.nav-spacer
+    margin: 4em
+
+.nav-content
+    display: flex
+    flex-wrap: wrap;
+    // font-size: 1.3em
+    font-weight: 600
+    align-items: center
+
+.nav-lang
+    margin-left: auto
+    font-size: 1.6em
+    font-weight: 600
+    text-transform: uppercase
+    display: flex
+    align-items: center
+    padding-right: 1.2em
+
+.nav-content-div
+    padding: 1.3em 0 1.3em 1em
+
+.navbar-home-logo
+    width: 3em
+    height: 3em
+    margin: 0
+    padding: 0
+
+.navbar-home-logo-div
+    padding: 0 0 0 1em
+    display: flex
+    align-items: center
+
+.dropdown > * 
+    display: none
+    position: absolute
+    box-shadow: 30px 30px 43px #1c1c1c, -30px -30px 43px #323232;
+    background-color: bg-color
+    list-style-type: none
+    padding: 0.5em
+
+.dropdown li
+    margin: 0.5em
+    text-decoration: none
+    
+.dropdown:hover > *
+    display: block
+
+// Footer styling
+footer
+    color: text-color
+    margin: auto 0.8em 1em 0.8em;
+    padding: 3em 1.3em 3em 1.3em;
+    font-size: 0.8em
+    border-radius: 20px;
+    box-shadow:  41px 41px 82px #141414,
+                 -41px -41px 82px #3a3a3a;
+    background: bg-color
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+
+.footer-item
+    flex-grow: 3
+
+// Mobile view
+@media (max-device-width: 30em)
+    html
+        font-size: 100%
+
+    .about
+        width:100%
+    
+    .sitemap
+        width:100%
+
+    .socials
+        width:100%
+        

@@ -16,3 +16,6 @@ nav:
   blog:
     title: Blog
     url: /blog
+  sponsor:
+    title: Sponsor
+    url: /sponsor

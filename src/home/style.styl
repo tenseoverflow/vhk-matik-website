@@ -1,41 +1,100 @@
 bg-color = #272727
 accent-color = #FFB000
 
-.main
-    width: 65%
-    margin: 0 auto
+.nav-spacer
+    margin: 0
 
-.about-us
-    font-size: 1.2rem
+h1
+    font-size: 2.5rem;
+
+.hero
+    padding: 9em 0 5em 0;
+    //margin-bottom: 2rem;
+    background: #4c4c4c;
+
+.hero-content
+    //width: 60%;
+    padding: 0 3rem 0 3rem;
+
+.sponsors
+    padding: 2em 3rem 3em 3rem
+
+.sponsor-images
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap;
+    padding: 0 3rem 0 3rem;
+
+.sponsor-images > a > img
+    width: 10em
+    padding-top: 0.8em
+
+.teams
+    display: flex
+    flex-direction: column
+    flex-wrap: nowrap
+    align-items: stretch
+    align-content: normal
+
+.team-item
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: normal
+    align-items: flex-start
+    align-content: flex-start
+    margin-bottom: 2rem
+
+.team-item-content
+    width: 50%
+
+.team-item > img
+    // float: right
+    border-radius: 20px
+    margin-right: 2rem
+    width: 45%
+
+@media (max-device-width: 1260px)
+    .team-item > img
+        width: 65vw
+    .team-item-content
+        width: 100%
 
 .blog-preview
-    font-size: 1.2rem
+    // box-shadow: 10px 10px 20px #121212, -10px -10px 20px #3c3c3c
+    // border-radius: 0.5rem
 
-.blog-preview-post
-    padding: 1rem 3rem 1.5rem 3rem
-    box-shadow: 10px 10px 20px #121212, -10px -10px 20px #3c3c3c
-    border-radius: 0.5rem
-    font-size: 1rem
+.blog-preview-post > h1
+    font-size: 2.2rem
 
 .blog-preview-post > h6
-    text-align: right
+    float: right
+    line-height: 0
+    margin: 1.6em 0 0 1em
     color: accent-color
 
 .blog-link
-    margin: 2rem 0 3rem 0
-    padding: 1.4rem
-    background: bg-color
-    border-radius: 0.5rem
-    display: inline-block
-    box-shadow: 10px 10px 20px #121212, -10px -10px 20px #3c3c3c
-    text-decoration: none
+    margin: 1.5rem 0 1.5rem 0
 
-// Mobile view - landscape
-@media (max-device-width: 63em)
-    .main
-        width: 80%
+.donate
+    padding: 1rem 3rem 1.5rem 3rem
+    text-align: center
+
+.donate-button
+    margin: 2rem 0 0 0
 
 // Mobile view - portrait
 @media (max-device-width: 30em)
-    .main
-        width: 85%
+    .content
+        width: 90%
+
+    .sponsor-images
+        padding: 0;
+
+    // h1
+    //     font-size: 2rem;
+
+
+    // .blog-preview-post > h1
+    //     font-size: 1.7rem

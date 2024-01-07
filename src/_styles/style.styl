@@ -1,97 +1,10 @@
+// Global variables
 footer-bg-color = #1f1f1f;
 bg-color = #272727;
 text-color = rgb(223, 223, 223);
 accent-color = #FFB000
 
-html
-    height: 100%
-
-body
-    background: bg-color
-    color: text-color
-    font-family: Arial, Helvetica, sans-serif
-    margin: 0
-    padding: 0
-    display: flex
-    flex-direction: column
-    min-height: 100%
-
-ul
-    margin: 0
-    padding: 0
-
-a
-    text-decoration: none
-    color: accent-color
-    cursor: pointer
-
-a:hover
-    text-decoration: underline
-
-footer
-    background: footer-bg-color
-    color: text-color
-    margin-top: auto
-    padding: 0.8em
-    font-size: 0.8em
-
-.navbar
-    background: bg-color
-    display: flex
-    box-shadow: 10px 10px 20px #121212, -10px -10px 20px #3c3c3c
-    position: fixed
-    top: 0
-    right: 0
-    left: 0
-
-.nav-spacer
-    margin: 4em
-
-.nav-content
-    display: flex
-    font-size: 1.3em
-    font-weight: 600
-    align-items: center
-
-.nav-lang
-    margin-left: auto
-    font-size: 1.6em
-    font-weight: 600
-    text-transform: uppercase
-    display: flex
-    align-items: center
-    padding-right: 1.2em
-
-.nav-content-div
-    padding: 1.3em 0 1.3em 1em
-
-.navbar-home-logo
-    width: 3em
-    height: 3em
-    margin: 0
-    padding: 0
-
-.navbar-home-logo-div
-    padding: 0 0 0 1em
-    display: flex
-    align-items: center
-
-.dropdown > * 
-    display: none
-    position: absolute
-    box-shadow: 30px 30px 43px #1c1c1c, -30px -30px 43px #323232;
-    background-color: bg-color
-    list-style-type: none
-    padding: 0.5em
-
-.dropdown li
-    margin: 0.5em
-    text-decoration: none
-    
-.dropdown:hover > *
-    display: block
-
-// Mobile view
-@media (max-device-width: 30em)
-    html
-        font-size: 140%
+// Styles
+@import "_styles/main";
+@import "_styles/components";
+@import "_styles/layout";

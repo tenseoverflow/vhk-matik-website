@@ -1,2 +1,32 @@
-p VHK matik
-p Powered by entu ssg
+.about.footer-item
+    h4 VHK Matik 2024
+
+    p
+        a(href="https://greenpower.co.uk") Greenpower
+
+.sitemap.footer-item
+    h4 Sitemap
+    
+    for i in self.nav
+        if i.url
+            p
+                a(href=i.url)=i.title
+        else
+            ul teams
+                div
+                    for j in i 
+                        li
+                            a(href=j.url)=j.title
+
+.socials.footer-item
+    h4 Socials
+
+    p
+        p
+            a(href="") Facebook 
+        p
+            a(href="") Instagram 
+        p
+            a(href="") Youtube 
+        p
+            a(href="") Linkedin 

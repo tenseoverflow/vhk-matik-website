@@ -1,9 +1,56 @@
 extends /_templates/layout.pug
 
 block content 
-    .about-us!= self.md(self.aboutUsAsMarkdown)
+    .hero
+        .hero-content
+            h1= self.hero.title
+            p= self.hero.heroDesc
+    
+    .content
+        .sponsors
+            h1= self.sponsorsTitle
+            .sponsor-images
+                a(href="https://tallinn.ee")
+                    img(src="assets/logo.svg" alt="City of Tallinn logo")
+                a(href="https://siemens.com/")
+                    img(src="assets/siemens.svg" alt="Siemens logo")
+                a(href="https://www.solidworks.com/")
+                    img(src="assets/Solidworks-logo_red.svg" alt="Solidworks logo")
 
-    .blog-preview
-        h1= self.blogTitle
-        .blog-preview-post!= self.md(self.data.articles[0])
-        a.blog-link(href=self.nav.blog.url)= self.readMore
+        .about-us.container.container-m!= self.md(self.aboutUsAsMarkdown)
+
+        .teams.container.container-m
+            h1= self.teamsTitle
+            .jupp.team-item
+                img(src="https://placehold.co/400x300" alt="Üks Jupp team photo")
+                .team-item-content
+                    h2= self.juppTitle
+                    p= self.jupp
+                    a.link-button(href="")= self.learnMore
+            .begreen.team-item
+                img(src="https://placehold.co/400x300" alt="Begreen team photo")
+                .team-item-content
+                    h2 Begreen
+                    p= self.begreen
+                    a.link-button(href="")= self.learnMore
+            .pink.team-item
+                img(src="https://placehold.co/400x300" alt="Pink Python team photo")
+                .team-item-content
+                    h2 Pink Python
+                    p= self.pink
+                    a.link-button(href="")= self.learnMore
+            .okas.team-item
+                img(src="https://placehold.co/400x300" alt="Okas team photo")
+                .team-item-content
+                    h2 Okas
+                    p= self.okas
+                    a.link-button(href="")= self.learnMore
+
+        .blog-preview.container.container-m
+            h1= self.blogTitle
+            .blog-preview-post!= self.md(self.data.articles[0])
+            a.blog-link.link-button(href=self.nav.blog.url)= self.readMore
+
+        .donate
+            h1= self.donateTitle
+            a.donate-button.link-button(href="/sponsor")= self.donateNow

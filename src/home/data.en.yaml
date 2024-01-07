@@ -1,20 +1,42 @@
-path: '/'
+path: "/"
 
 aliases:
-  - '/en/'
+  - "/en/"
 
-data:
-  articles: '/../compile_dir/articles.en.yaml'
+hero:
+  title: "VHK Greenpower STEM"
+  heroDesc: "We are building Greenpower electric cars."
 
-blogTitle: Blog
-readMore: Read more
-aboutUsAsMarkdown:
-  '
+sponsorsTitle: Sponsors
+
+aboutUsAsMarkdown: "
   # About Us
 
-  We are students from the engineering class at Vanalinna Hariduskolleegium and are building electric cars in the MATIK lesson.
+  VHK STEM is a Greenpower STEM class for high school students in the engineering class which operates as an extracurricular activity in the Old Town Educational College secondary education's engineering class' curriculum.
 
-  Divided into four teams, each with their own car, we meet regularly once a week, but a large part of the work also gets done outside of class.
-  
-  We have already competed twice in the UK and plan to go again next spring!
-  '
+  STEM stands for Science, Technology, Engineering, and Mathematics. The goal of the program is to get students interested in STEM fields and to give them practical experience in engineering.
+
+  VHK STEM is divided into 4 teams where each team works on one Greenpower car. In a team, each member has their own responsibilities, from working on the car's design to marketing and branding. VHK STEM program gets students from theoretical classes to work on practical projects while cultivating a harmonious team.
+
+  We have already competed twice in the UK and plan to go again next spring 2024.
+  "
+
+teamsTitle: Teams
+learnMore: Learn more
+
+juppTitle: 1 Jupp
+jupp: Lorem ipsum teum
+
+okas: Lorem ipsum teum
+
+pink: Lorem ipsum teum
+
+begreen: Lorem ipsum teum
+
+blogTitle: Recent Blog Post
+data:
+  articles: "/../compile_dir/articles.en.yaml"
+readMore: Read more
+
+donateTitle: Support us by donating or sponsoring
+donateNow: More info

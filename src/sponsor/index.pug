@@ -1,0 +1,15 @@
+extends /_templates/layout.pug
+
+block content 
+
+    .content
+        .container
+            h1= self.sponsorTitle
+            
+            p= self.sponsorText
+            
+            a.link-button(href="mailto:")= self.contactLink
+
+            br
+
+            a.link-button(href="#")= self.sponsorLink

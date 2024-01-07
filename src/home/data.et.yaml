@@ -1,17 +1,37 @@
-path: '/'
+path: "/"
 
-data:
-  articles: '/../compile_dir/articles.et.yaml'
+hero:
+  title: "VHK Greenpower STEM"
+  heroDesc: "Me ehitame Greenpoweri elektriautosid."
 
-blogTitle: Blogi
-readMore: Loe edasi
-aboutUsAsMarkdown:
-  '
+sponsorsTitle: Sponsorid
+
+aboutUsAsMarkdown: "
   # Meist
 
   Oleme Vanalinna Hariduskolleegiumi inseneeria klassi õpilased ja ehitame MATIKu tunnis elektriautosid.
 
   Neljaks tiimiks jaotununa, kus igal tiimil on oma auto, saame kokku regulaarselt kord nädalas, aga suur osa tööst toimub ka väljaspool tundi.
 
-  Oleme varem käinud juba kaks korda UK-s võistlemas, ja kavatseme minna ka tuleval kevadel!
-  '
+  Oleme varem käinud juba kaks korda UK-s võistlemas, ja kavatseme minna ka tuleval kevadel.
+  "
+
+teamsTitle: Meeskonnad
+learnMore: Loe rohkem
+
+juppTitle: Üks Jupp
+jupp: Lorem ipsum teum
+
+okas: Lorem ipsum teum
+
+pink: Lorem ipsum teum
+
+begreen: Lorem ipsum teum
+
+blogTitle: Värskeim blogipostitus
+data:
+  articles: "/../compile_dir/articles.et.yaml"
+readMore: Loe edasi
+
+donateTitle: Toeta meid annetades või sponsorina
+donateNow: Rohkem infot
