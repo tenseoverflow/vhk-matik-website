@@ -9,10 +9,16 @@ nav:
   # teams:
   #   -
   #     title: BeeGreen
-  #     url: /et/beegreen
+  #     url: /teams/beegreen
   #   -
-  #     title: tiim3
-  #     url: /et/tiim3
+  #     title: 1Jupp
+  #     url: /teams/jupp
+  #   -
+  #     title: Okas
+  #     url: /teams/okas
+  #   -
+  #     title: Pink Floyd
+  #     url: /teams/pinkfloyd
   blog:
     title: Blogi
     url: /et/blogi
