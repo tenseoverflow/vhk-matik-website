@@ -12,39 +12,68 @@ block content
             .sponsor-images
                 a(href="https://tallinn.ee")
                     img(src="assets/logo.svg" alt="City of Tallinn logo")
-                a(href="https://siemens.com/")
-                    img(src="assets/siemens.svg" alt="Siemens logo")
+                //a(href="https://siemens.com/")
+                //    img(src="assets/siemens.svg" alt="Siemens logo")
                 a(href="https://www.solidworks.com/")
                     img(src="assets/Solidworks-logo_red.svg" alt="Solidworks logo")
 
         .about-us.container.container-m!= self.md(self.aboutUsAsMarkdown)
 
-        .teams.container.container-m
+        .container.container-m
             h1= self.teamsTitle
-            .jupp.team-item
-                img(src="/assets/P2400708.JPG" width="400" height="300" alt="1 Jupp team photo")
-                .team-item-content
-                    h2= self.juppTitle
-                    p= self.jupp
-                    a.link-button(href="")= self.learnMore
-            .begreen.team-item
-                img(src="https://placehold.co/400x300" width="400" height="300" alt="Begreen team photo")
-                .team-item-content
-                    h2 Begreen
-                    p= self.begreen
-                    a.link-button(href="")= self.learnMore
-            .pink.team-item
-                img(src="https://placehold.co/400x300" width="400" height="300" alt="Pink Python team photo")
-                .team-item-content
-                    h2 Pink Python
-                    p= self.pink
-                    a.link-button(href="")= self.learnMore
-            .okas.team-item
-                img(src="https://placehold.co/400x300" width="400" height="300" alt="Okas team photo")
-                .team-item-content
-                    h2 Okas
-                    p= self.okas
-                    a.link-button(href="")= self.learnMore
+            .teams
+                .jupp.team-item
+                    img(src="/assets/P2400708.JPG" alt="1 Jupp team photo")
+                    .team-item-content
+                        h2= self.juppTitle
+                        p= self.jupp
+                        a.link-button(href="")= self.learnMore
+                .begreen.team-item
+                    img(src="https://placehold.co/400x300" alt="Begreen team photo")
+                    .team-item-content
+                        h2 Begreen
+                        p= self.begreen
+                        a.link-button(href="")= self.learnMore
+                .pink.team-item
+                    img(src="https://placehold.co/400x300" alt="Pink Python team photo")
+                    .team-item-content
+                        h2 Pink Python
+                        p= self.pink
+                        a.link-button(href="")= self.learnMore
+                .okas.team-item
+                    img(src="https://placehold.co/400x300" alt="Okas team photo")
+                    .team-item-content
+                        h2 Okas
+                        p= self.okas
+                        a.link-button(href="")= self.learnMore
+
+        .container.container-m
+            h1= self.mediaTitle
+            .media
+                .media-item
+                    iframe(width="350" height="225" src="https://www.youtube-nocookie.com/embed/GyUWX6lJIaE?si=oZMr8djavRFKZe9j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen)
+                    .media-item-content
+                        h2= self.mediaItemTitle
+                        p= self.mediaItemDesc
+                        a(href="")= self.learnMore
+                .media-item
+                    img(src="https://placehold.co/300x200" alt="Media item")
+                    .media-item-content
+                        h2= self.mediaItemTitle
+                        p= self.mediaItemDesc
+                        a(href="")= self.learnMore
+                .media-item
+                    img(src="https://placehold.co/300x200" alt="Media item")
+                    .media-item-content
+                        h2= self.mediaItemTitle
+                        p= self.mediaItemDesc
+                        a(href="")= self.learnMore
+                .media-item
+                    img(src="https://placehold.co/300x200" alt="Media item")
+                    .media-item-content
+                        h2= self.mediaItemTitle
+                        p= self.mediaItemDesc
+                        a(href="")= self.learnMore
 
         .blog-preview.container.container-m
             h1= self.blogTitle

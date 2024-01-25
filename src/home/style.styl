@@ -49,22 +49,29 @@ h1
     justify-content: normal
     align-items: flex-start
     align-content: flex-start
-    margin-bottom: 2rem
+    margin-bottom: 3rem
 
 .team-item-content
-    width: 50%
+    width: 100%
 
 .team-item > img
-    // float: right
     border-radius: 20px
     margin-right: 2rem
-    width: 45%
+    max-width: 100%;
+    height: auto;
 
-@media (max-device-width: 1260px)
-    .team-item > img
-        width: 65vw
-    .team-item-content
-        width: 100%
+.media
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: normal
+    align-items: flex-start
+    align-content: flex-start
+    //margin-bottom: 3rem
+
+.media-item
+    flex: 50%
+    margin-bottom: 3rem
 
 .blog-preview
     // box-shadow: 10px 10px 20px #121212, -10px -10px 20px #3c3c3c

@@ -12,10 +12,10 @@
             p
                 a(href=i.url)=i.title
         else
-            ul teams
+            ul Teams
                 div
                     for j in i 
-                        li
+                        li(style="list-style-type: none;")
                             a(href=j.url)=j.title
 
 .socials.footer-item

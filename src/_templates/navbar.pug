@@ -11,8 +11,8 @@
                     a(href=i.url)=i.title
         else
             div.nav-content-div
-                ul.dropdown teams
-                    div
+                ul.dropdown(style="color: --accent-color") Teams
+                    div.teams-dropdown
                         for j in i 
                             li
                                 a(href=j.url)=j.title

@@ -1,0 +1,15 @@
+extends /_templates/layout.pug
+
+block content 
+    .hero
+        .hero-content
+            h1= self.hero.title
+    
+    .content
+
+        .about-us.container.container-m!= self.md(self.aboutUsAsMarkdown)
+
+        .members
+
+
+        .images

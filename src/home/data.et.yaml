@@ -28,6 +28,8 @@ pink: Lorem ipsum teum
 
 begreen: Lorem ipsum teum
 
+mediaTitle: Meedia kajastus
+
 blogTitle: Värskeim blogipostitus
 data:
   articles: "/../compile_dir/articles.et.yaml"

@@ -6,19 +6,18 @@ nav:
   contact:
     title: Kontakt
     url: /et/kontakt
-  # teams:
-  #   -
-  #     title: BeeGreen
-  #     url: /teams/beegreen
-  #   -
-  #     title: 1Jupp
-  #     url: /teams/jupp
-  #   -
-  #     title: Okas
-  #     url: /teams/okas
-  #   -
-  #     title: Pink Floyd
-  #     url: /teams/pinkfloyd
+  teams:
+    - title: BeeGreen
+      url: /teams/beegreen
+    - title: 1Jupp
+      url: /teams/jupp
+    - title: Okas
+      url: /teams/okas
+    - title: Pink Floyd
+      url: /teams/pinkfloyd
   blog:
     title: Blogi
     url: /et/blogi
+  sponsor:
+    title: Sponsor
+    url: /sponsor

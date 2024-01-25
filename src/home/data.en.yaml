@@ -33,6 +33,11 @@ pink: Lorem ipsum teum
 
 begreen: Lorem ipsum teum
 
+mediaTitle: Media coverage
+
+mediaItemTitle: Test
+mediaItemDesc: Test
+
 blogTitle: Recent Blog Post
 data:
   articles: "/../compile_dir/articles.en.yaml"

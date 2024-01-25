@@ -6,19 +6,15 @@ nav:
   contact:
     title: Contact
     url: /contact
-  # teams:
-  #   -
-  #     title: BeeGreen
-  #     url: /teams/beegreen
-  #   -
-  #     title: 1Jupp
-  #     url: /teams/jupp
-  #   -
-  #     title: Okas
-  #     url: /teams/okas
-  #   -
-  #     title: Pink Floyd
-  #     url: /teams/pinkfloyd
+  teams:
+    - title: BeeGreen
+      url: /teams/beegreen
+    - title: 1Jupp
+      url: /teams/jupp
+    - title: Okas
+      url: /teams/okas
+    - title: Pink Floyd
+      url: /teams/pinkfloyd
   blog:
     title: Blog
     url: /blog
