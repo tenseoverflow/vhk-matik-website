@@ -1,7 +1,21 @@
 path: "/sponsor"
 
-sponsorTitle: Sponsordage meid
+sponsorTitle: Kuidas toetada?
 
 sponsorText: Kui oled firma või eraisik, kes sooviks meid toetada, siis annetage sõnumiga "MATIK" või võtke meiega ühendust.
 
-contactLink: Võta meiega ühendust (example@example.com)
+costs: "Hetkel otsime sponsoreid, kes aitaks meid kata järgmised kulud: "
+cost1: "Materjalid: PVC plaadid, elektroonika komponendid (voolu, pinge, temperatuuri andurid; GPS; ESP või LoRa võimelised plaadid...)"
+cost2: "BeeGreeni auto ehitamine: materjalid, keevitus firma (meil on juba joonised valmis), klaas või susinikkiud, kinnitusvahendid..."
+cost3: "Proovisõidud: iga proovisõidu jaoks läheb vähemalt 100€ kaubiku rentimise peale. "
+cost4: "Auto logistika: selleks, et võistlustel osaleda, on vaja autot transportida. Sõltub kuhu ja kui kaugel võistlused toimuvad meil on suuremad kulusid aga see igal juhul odav ei ole."
+
+neededItems: "Saab toetada ka järgmiste asjadega, mis on meil vaja: "
+item1: Täispea kiivrid
+item2: Kombekad
+item3: Kuumapüstol
+item4: Kompressor
+item5: Puurid (Bosch)
+item6: Niiskusekoguja / Õhukuivati
+
+contactLink: Võta meiega ühendust (matik@vhk.ee)
