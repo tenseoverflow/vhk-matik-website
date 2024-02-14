@@ -8,16 +8,16 @@ nav:
     url: /et/kontakt
   teams:
     - title: BeeGreen
-      url: /teams/beegreen
+      url: /et/tiimid/beegreen
     - title: 1Jupp
-      url: /teams/jupp
+      url: /et/tiimid/jupp
     - title: Okas
-      url: /teams/okas
+      url: /et/tiimid/okas
     - title: Pink Floyd
-      url: /teams/pinkfloyd
+      url: /et/tiimid/pinkfloyd
   blog:
     title: Blogi
     url: /et/blogi
   sponsor:
     title: Sponsor
-    url: /sponsor
+    url: /et/sponsor
