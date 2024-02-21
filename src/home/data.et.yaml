@@ -22,13 +22,22 @@ learnMore: Loe rohkem
 juppTitle: Üks Jupp
 jupp: Hetkel vanim tiim Matik-us, kes võistles F24+ Greenpoweri finaalis autoga Weiko Kalew ja sai 32. koha 37-st. Tiim jätkab auto täiustamist, et saavutada veelgi kõrgemaid tulemusi.
 
-okas: Lorem ipsum teum
+okas: Tekst varsti tuleb
 
-pink: Lorem ipsum teum
+pink: Tekst varsti tuleb
 
 beegreen: Kunagine tiim McQueen, nüüd BeeGreen, kes ehitab oma auto nullist.
 
 mediaTitle: Meedia kajastus
+
+mediaItemTitle1: Pealinn
+mediaItemDesc1: Vanalinna hariduskolleegiumi noored ehitavad elektrisõidukeid ja unistavad võistlustest
+mediaItemTitle2: Autogeenius
+mediaItemDesc2: Vanalinna kooli õpilased ehitavad elektriautosid ja plaanivad nendega võistlema minna
+mediaItemTitle3: Terevisioon
+mediaItemDesc3: Terevisioonis käis kunagine meeskond Tiim McQueen.
+mediaItemTitle4: Raadio Elmar
+mediaItemDesc4: "Mõni minut muusikata: Üks noor mõte Juljus Putrinš Elektriauto ehitamisest"
 
 blogTitle: Värskeim blogipostitus
 data:
