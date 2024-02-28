@@ -3,9 +3,9 @@ nav:
   home:
     title: VHK Matik
     url: /
-  contact:
-    title: Contact
-    url: /contact
+  # contact:
+  #   title: Contact
+  #   url: /contact
   teams:
     - title: BeeGreen
       url: /teams/beegreen
@@ -21,3 +21,8 @@ nav:
   sponsor:
     title: Sponsor
     url: /sponsor
+
+footer:
+  sitemap: "Sitemap"
+  contact: "Contact"
+  teacher: "Teacher: Javier Ortin Cervera"

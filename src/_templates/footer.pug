@@ -1,11 +1,20 @@
 .about.footer-item
     h4 VHK Matik 2024
 
-    p
+    p 
         a(href="https://greenpower.co.uk") Greenpower
+    
+    p
+        a(href="https://www.vhk.ee") Vanalinna Hariduskolleegium
+    
+    p 
+        =self.footer.teacher
+        //br
+        //a(href="mailto:javier@vhk.ee", style="margin-top: 0") javier@vhk.ee
+
 
 .sitemap.footer-item
-    h4 Sitemap
+    h4= self.footer.sitemap
     
     for i in self.nav
         if i.url
@@ -15,18 +24,21 @@
             ul Teams
                 div
                     for j in i 
-                        li(style="list-style-type: none;")
+                        li(style="list-style-type: none; margin-left: .5em")
                             a(href=j.url)=j.title
 
 .socials.footer-item
-    h4 Socials
+    h4= self.footer.contact
 
-    p
-        p
+    p 
+        a(href="mailto:matik@vhk.ee") matik@vhk.ee
+
+    ul(style="list-style-type: none")
+        li
             a(href="https://www.facebook.com/people/VHK-Matik/61553995101015/") Facebook 
-        p
+        li
             a(href="https://www.instagram.com/vhk_matik/") Instagram 
-        p
+        li
             a(href="https://www.youtube.com/@MATIKVHK") Youtube 
-        p
+        li
             a(href="https://ee.linkedin.com/company/vhk-greenpower") Linkedin 

@@ -3,9 +3,9 @@ nav:
   home:
     title: VHK Matik
     url: /et/
-  contact:
-    title: Kontakt
-    url: /et/kontakt
+  # contact:
+  #   title: Kontakt
+  #   url: /et/kontakt
   teams:
     - title: BeeGreen
       url: /et/tiimid/beegreen
@@ -21,3 +21,8 @@ nav:
   sponsor:
     title: Sponsor
     url: /et/sponsor
+
+footer:
+  sitemap: "Lingid"
+  contact: "Kontakt"
+  teacher: "Juhendaja: Javier Ortin Cervera"
