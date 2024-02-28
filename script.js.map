@@ -1,1 +1,1 @@
-{"version":3,"file":"script.js","sources":[],"names":[],"mappings":""}
+{"version":3,"file":"script.js","sources":["script.js"],"names":["responsiveNav","x","document","getElementById","className"],"mappings":"AAAA,SAASA,gBACP,IAAIC,EAAIC,SAASC,eAAe,QAAQ,EACpB,WAAhBF,EAAEG,UACJH,EAAEG,WAAa,cAEfH,EAAEG,UAAY,QAElB"}
