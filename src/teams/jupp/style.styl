@@ -10,42 +10,43 @@ h1
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.55)
-    ),url("/assets/P2400762.JPG");
+    ),url("/assets/P2400708.JPG");
     background-position: center
     background-size: cover;
 
 .hero-content
-    //width: 60%;
+    width: 40%;
     padding: 0 3rem 0 3rem;
 
+.desc
+    margin-top: 2em;
 
-.blog-preview
-    // box-shadow: 10px 10px 20px #121212, -10px -10px 20px #3c3c3c
-    // border-radius: 0.5rem
+.members
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-evenly
+    align-items: baseline
+    align-content: space-between
+    padding-top: 3rem
+    gap: 2rem
 
-.blog-preview-post > h1
-    font-size: 2.2rem
+.member
+    flex: 33%
+    max-width: 300px
+    min-width: 300px
 
-.blog-preview-post > h6
-    float: right
-    line-height: 0
-    margin: 1.6em 0 0 1em
-    color: accent-color
-
-.blog-link
-    margin: 1.5rem 0 1.5rem 0
+.member img
+    width: 100%
+    height: auto
+    border-radius: 25px
 
 // Mobile view - portrait
 @media (max-device-width: 30em)
     .content
         width: 90%
 
-    .sponsor-images
-        padding: 0;
-
-    // h1
-    //     font-size: 2rem;
-
-
-    // .blog-preview-post > h1
-    //     font-size: 1.7rem
+    .member
+        flex: 100%
+        max-width: 100%
+        min-width: 100%

@@ -4,12 +4,20 @@ block content
     .hero
         .hero-content
             h1= self.hero.title
+            p= self.teamText
     
     .content
 
-        .about-us.container.container-m!= self.md(self.aboutUsAsMarkdown)
+        .desc.container.container-m
+            p= self.teamText
 
-        .members.contianer.container-m
+        .container.container-m
+            p= "Pildigalerii võib siia tulla, kui on vaja."
 
-
-        .images
+        .members.container.container-m
+            each member in self.members
+                .member
+                    img(src=member.image)
+                    .member-info
+                        h2= member.name
+                        p= member.role
