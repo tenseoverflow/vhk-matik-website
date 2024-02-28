@@ -32,7 +32,6 @@ a:hover
 // Navbar styles
 .navbar
     background: bg-color
-    display: flex
     // box-shadow: 10px 10px 20px #121212, -10px -10px 20px #3c3c3c
     margin: 0.8em;
     border-radius: 20px;
@@ -41,33 +40,30 @@ a:hover
     top: 0
     right: 0
     left: 0
-
-// @media (max-device-width: 30em)
-//     .navbar
-
-
-.nav-spacer
-    margin: 4em
-
-.nav-content
     display: flex
     flex-wrap: wrap;
     // font-size: 1.3em
     font-weight: 600
     align-items: center
 
-.nav-lang
-    margin-left: auto
-    font-size: 1.6em
-    font-weight: 600
-    text-transform: uppercase
-    display: flex
-    align-items: center
-    padding-right: 1.2em
+.nav-spacer
+    margin: 4em
 
 .nav-content-div
     padding: 1.3em 0 1.3em 1em
     color: accent-color
+
+.nav-lang
+    margin-left: auto
+    //font-size: 1.6em
+    font-weight: 600
+    text-transform: uppercase
+    padding: 0 1.3em 0 0
+
+.nav-lang img
+    width: 30px
+    height: 22px
+    border-radius: 5px
 
 .navbar-home-logo
     width: 3em
@@ -79,6 +75,12 @@ a:hover
     padding: 0 0 0 1em
     display: flex
     align-items: center
+
+.hamburger
+    display: none
+
+.hamburger a
+    text-decoration: none
 
 .dropdown > * 
     display: none
@@ -114,6 +116,53 @@ footer
 .footer-item
     flex-grow: 3
 
+@media (max-device-width: 785px)
+    .nav-content-div
+        display: none
+
+    .hamburger
+        margin-left: auto
+        font-weight: 600
+        text-transform: uppercase
+        display: block
+        align-items: center
+        padding: 0 1.2em 0 0
+
+    .navbar.responsive
+        padding-bottom: 1em
+        gap: 0.3em
+
+    .navbar.responsive .hamburger
+        position: relative
+    
+    .navbar.responsive .nav-content-div
+        float: none
+        display: flex
+        flex: 100%
+        padding: 0 0 0 1em
+        text-align: left
+        
+    .teams-dropdown
+        position: relative
+        display: block
+        box-shadow: none
+        color: text-color
+        padding: 0 1.2em
+
+    .teams-dropdown li
+        margin: 0
+        color: accent-color
+
+    .dropdown
+        color: text-color
+    
+    .navbar.responsive .nav-lang
+        float: none
+        display: flex
+        flex: 100%
+        padding: 0 0 0 1em
+        text-align: left
+
 // Mobile view
 @media (max-device-width: 30em)
     html
@@ -128,3 +177,8 @@ footer
     .socials
         width:100%
         
+    footer
+        flex-direction: column
+
+    .footer-item
+        flex-grow: 1
