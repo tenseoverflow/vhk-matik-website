@@ -1,0 +1,43 @@
+path: "/teams/jupp"
+
+aliases:
+  - "/en/teams/jupp"
+
+hero:
+  title: 1Jupp RC
+  text: "Oldest team in VHK STEM. Competed in the Greenpower F24+ finals."
+
+team:
+  title: About us
+  text: "Currently the oldest team who competed 32nd out of 37th in the F24+ Greenpower Finals with the car Weiko Kalew. The team is still continuing to improve the car. Current focus is to make the car aerodynamic and faster. The team consists of 11th and 12th grade students."
+
+photos: "Photos"
+
+members:
+  - name: "Tristan Agur"
+    role: "Built box for transport"
+    image: "/assets/onejupp/jupp.jpg"
+  - name: "Henri Aunin"
+    role: "Website Development"
+    image: "/assets/onejupp/jupp.jpg"
+  - name: "Joonatan Jürisson"
+    role: "Telemetry"
+    image: "/assets/onejupp/jupp.jpg"
+  - name: "Marti Zupping"
+    role: "Telemetry"
+    image: "/assets/onejupp/jupp.jpg"
+  - name: "Karel Mati Kaunissaare"
+    role: "Built box for transport"
+    image: "/assets/onejupp/jupp.jpg"
+  - name: "Tristjan Lutter"
+    role: "Electronics"
+    image: "/assets/onejupp/jupp.jpg"
+  - name: "Georg Pärtel Põldmäe"
+    role: "Leader, Aerodynamics & Bodywork"
+    image: "/assets/onejupp/jupp.jpg"
+  - name: "Laur Vesingi"
+    role: "Bodywork"
+    image: "/assets/onejupp/jupp.jpg"
+  - name: "Henri Turban"
+    role: "Aerodynamics"
+    image: "/assets/onejupp/jupp.jpg"

@@ -1,9 +1,8 @@
-path: '/contact'
+path: "/contact"
 
 aliases:
-  - '/en/contact'
+  - "/en/contact"
 
-
-socialmedia: Social Media
+socialmedia: Contact us
 
 welcometext: "We'd love to hear from you! In case of any questions feel free to reach out through any of the channels below or write to "

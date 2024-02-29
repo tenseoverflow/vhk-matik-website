@@ -1,0 +1,31 @@
+extends /_templates/layout.pug
+
+block content 
+    .hero
+        .hero-content
+            h1= self.hero.title
+            p= self.hero.text
+    
+    .content
+
+        .desc.container.container-m
+            h2= self.team.title
+            p= self.team.text
+
+        .gallery.container.container-m
+            h2= self.photos
+            ul.photos
+                li
+                    img(src="/assets/onejupp/P2400708.webp" alt="1 Jupp team photo")
+                li
+                    img(src="/assets/onejupp/1708959115437.webp" alt="Man agressively sawing")
+                li
+                    img(src="/assets/onejupp/3872.webp" alt="Safety issues in the workshop")
+
+        .members.container.container-m
+            each member in self.members
+                .member
+                    img(src=member.image)
+                    .member-info
+                        h2= member.name
+                        p= member.role

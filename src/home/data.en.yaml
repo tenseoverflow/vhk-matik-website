@@ -1,20 +1,57 @@
-path: '/'
+path: "/"
 
 aliases:
-  - '/en/'
+  - "/en/"
 
-data:
-  articles: '/../compile_dir/articles.en.yaml'
+hero:
+  title: "VHK Greenpower STEM"
+  heroDesc: "We are building Greenpower electric cars."
 
-blogTitle: Blog
-readMore: Read more
-aboutUsAsMarkdown:
-  '
+sponsorsTitle: Sponsors
+
+aboutUsAsMarkdown: "
   # About Us
 
-  We are students from the engineering class at Vanalinna Hariduskolleegium and are building electric cars in the MATIK lesson.
+  VHK STEM is a Greenpower STEM class for high school students in the engineering class which operates as an extracurricular activity in the Old Town Educational College secondary education's engineering class' curriculum.
 
-  Divided into four teams, each with their own car, we meet regularly once a week, but a large part of the work also gets done outside of class.
-  
-  We have already competed twice in the UK and plan to go again next spring!
-  '
+  STEM stands for Science, Technology, Engineering, and Mathematics. The goal of the program is to get students interested in STEM fields and to give them practical experience in engineering.
+
+  VHK STEM is divided into 4 teams where each team works on one Greenpower car. In a team, each member has their own responsibilities, from working on the car's design to marketing and branding. VHK STEM program gets students from theoretical classes to work on practical projects while cultivating a harmonious team.
+
+  We have already competed twice in the UK and plan to go again next spring 2024.
+  "
+
+teamsTitle: Teams
+learnMore: Learn more
+
+juppTitle: 1 Jupp
+jupp: Currently the oldest team who competed 32nd out of 37th in the F24+ Greenpower Finals with the car Weiko Kalew. The team is still continuing to improve the car to reach even newer heights.
+
+okas: Text coming soon.
+
+pink: Text coming soon.
+
+beegreen: Former team McQueen, now BeeGreen, is the team building their car from scratch.
+
+mediaTitle: Media coverage
+
+mediaItemTitle1: Pealinn
+mediaItemDesc1: VHK students are building electric cars and dreaming of competition (in estonian)
+mediaItemTitle2: Autogeenius
+mediaItemDesc2: Old town college students are building electric cars and are planning to go competing with them (in estonian)
+mediaItemTitle3: Terevisioon
+mediaItemDesc3: "The now disbanded Team McQueen was featured on Estonian morning program: Terevisioon. (in estonian)"
+mediaItemTitle4: Raadio Elmar
+mediaItemDesc4: "A minute of non-music: a thought from Juljus Putrinš about building electric cars (podcast in estonian)"
+
+watch: "Watch the video"
+read: "Read the article"
+listen: "Listen to the podcast"
+
+blogTitle: Recent Blog Post
+data:
+  articles: "/../compile_dir/articles.en.yaml"
+readMore: Read more
+
+donateTitle: Support us by donating or sponsoring
+donateNow: More info

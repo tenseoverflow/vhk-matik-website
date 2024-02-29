@@ -3,16 +3,26 @@ nav:
   home:
     title: VHK Matik
     url: /et/
-  contact:
-    title: Kontakt
-    url: /et/kontakt
-  # teams:
-  #   -
-  #     title: BeeGreen
-  #     url: /et/beegreen
-  #   -
-  #     title: tiim3
-  #     url: /et/tiim3
+  # contact:
+  #   title: Kontakt
+  #   url: /et/kontakt
+  teams:
+    - title: BeeGreen
+      url: /et/tiimid/beegreen
+    - title: 1Jupp
+      url: /et/tiimid/jupp
+    - title: Okas
+      url: /et/tiimid/okas
+    - title: Pink Floyd
+      url: /et/tiimid/pinkfloyd
   blog:
     title: Blogi
     url: /et/blogi
+  sponsor:
+    title: Sponsor
+    url: /et/sponsor
+
+footer:
+  sitemap: "Lingid"
+  contact: "Kontakt"
+  teacher: "Juhendaja: Javier Ortin Cervera"

@@ -1,0 +1,31 @@
+extends /_templates/layout.pug
+
+block content 
+
+    .content
+        .container
+            h1= self.sponsorTitle
+
+            p= self.sponsorText
+
+            h3(style="line-height: 1.2; font-weight: 700")= "EE707700771003717302" 
+            h3(style="line-height: 1.2; font-weight: 700")= "Mittetulundusühing MIIKAELI ÜHENDUS" 
+
+            a.link-button(href="mailto:matik@vhk.ee")= self.contactLink
+            
+            p= self.costs
+            ul
+                li= self.cost1
+                li= self.cost2
+                li= self.cost3
+            
+            p= self.neededItems
+            ul
+                li= self.item1
+                li= self.item2
+                li= self.item3
+                li= self.item4
+                li= self.item5
+                li= self.item6
+                //- li= self.item7
+                //- li= self.item8

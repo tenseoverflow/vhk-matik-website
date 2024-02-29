@@ -1,18 +1,28 @@
-website_title: VHK Matik
+website_title: VHK STEM
 nav:
   home:
     title: VHK Matik
     url: /
-  contact:
-    title: Contact
-    url: /contact
-  # teams:
-  #   -
-  #     title: BeeGreen
-  #     url: /beegreen
-  #   -
-  #     title: tiim3
-  #     url: /tiim3
+  # contact:
+  #   title: Contact
+  #   url: /contact
+  teams:
+    - title: BeeGreen
+      url: /teams/beegreen
+    - title: 1Jupp
+      url: /teams/jupp
+    - title: Okas
+      url: /teams/okas
+    - title: Pink Floyd
+      url: /teams/pinkfloyd
   blog:
     title: Blog
     url: /blog
+  sponsor:
+    title: Sponsor
+    url: /sponsor
+
+footer:
+  sitemap: "Sitemap"
+  contact: "Contact"
+  teacher: "Teacher: Javier Ortin Cervera"

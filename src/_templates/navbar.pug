@@ -1,4 +1,5 @@
-.nav-content
+.navbar(id="navbar")
+
     for i in self.nav
         if i.url
             if i.title == "VHK Matik"
@@ -6,17 +7,30 @@
                     a(href=i.url)
                         img.navbar-home-logo(src="/assets/VHK_matik_logo.png", alt="VHK_matik_logo")
                     a(href=i.url)=i.title
+                
+                .hamburger
+                    a(href="javascript:void(0)" onclick="responsiveNav()")= "☰"
             else
                 div.nav-content-div
                     a(href=i.url)=i.title
+
         else
             div.nav-content-div
-                ul.dropdown teams
-                    div
+                ul.dropdown Teams
+                    div.teams-dropdown
                         for j in i 
                             li
                                 a(href=j.url)=j.title
 
-.nav-lang
-    each p, locale in self.otherLocalePaths
-        a(href= p)= locale
+
+    .nav-lang.nav-content-div
+        each p, locale in self.otherLocalePaths
+            if locale == "en"
+                a(href= p)
+                    img(src="/assets/britain.webp", alt="UK")
+            else if locale == "et"
+                a(href= p)
+                    img(src="/assets/estonia.webp", alt="EE")
+            else
+                a(href= p)= locale
+

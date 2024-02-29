@@ -1,6 +1,6 @@
 extends /_templates/layout.pug
 
 block content 
-    .blog
+    .content
         each article in self.data.articles
-            .blog-post!= self.md(article)
+            .blog-post.container!= self.md(article)

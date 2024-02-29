@@ -1,0 +1,40 @@
+path: "/tiimid/jupp"
+
+hero:
+  title: ÜksJupp rallitiim
+  text: "Võistles Greenpower F24+ finaalis."
+
+team:
+  title: Meist
+  text: "Matiku vanim tiim, kes võistles F24+ Greenpoweri finaalis autoga Weiko Kalew ja sai 32. koha 37-st. Tiim jätkab oma auto arendamisega, et teha seda aerodünaamilisemaks ning kiiremaks. Tiimis on 11. klassi ning 12. klassi õpilased."
+
+photos: "Fotod"
+
+members:
+  - name: "Tristan Agur"
+    role: "Ehitas kasti"
+    image: "/assets/onejupp/jupp.jpg"
+  - name: "Henri Aunin"
+    role: "Veebisaidi arendaja"
+    image: "/assets/onejupp/jupp.jpg"
+  - name: "Joonatan Jürisson"
+    role: "Telemeetria"
+    image: "/assets/onejupp/jupp.jpg"
+  - name: "Marti Zupping"
+    role: "Telemeetria"
+    image: "/assets/onejupp/jupp.jpg"
+  - name: "Karel Mati Kaunissaare"
+    role: "Ehitas kasti"
+    image: "/assets/onejupp/jupp.jpg"
+  - name: "Tristjan Lutter"
+    role: "Elektroonika"
+    image: "/assets/onejupp/jupp.jpg"
+  - name: "Georg Pärtel Põldmäe"
+    role: "Juht, aerodünaamika ja keretööd"
+    image: "/assets/onejupp/jupp.jpg"
+  - name: "Laur Vesingi"
+    role: "Keretööd"
+    image: "/assets/onejupp/jupp.jpg"
+  - name: "Henri Turban"
+    role: "Aerodünaamika"
+    image: "/assets/onejupp/jupp.jpg"
