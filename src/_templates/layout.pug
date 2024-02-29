@@ -1,14 +1,16 @@
 doctype html
+html(lang=self.locale)
 head
     link(rel="stylesheet", href="/style.css", type="text/css")
-    link(rel="icon" type="image/png" href="/assets/VHK_matik_logo.png")
+    link(rel="icon" type="image/webp" href="/assets/VHK_matik_logo.webp")
     meta(charset="UTF-8")
+    meta(viewport="width=device-width, initial-scale=1.0")
     title= self.website_title
-    link(rel="icon" href="https://matik.vhk.ee/assets/VHK_matik_logo.png")
+    link(rel="icon" href="https://matik.vhk.ee/assets/VHK_matik_logo.webp")
     meta(name="description" content="VHK STEM is a Greenpower STEM class for high school students in the engineering class which operates as an extracurricular activity in the Old Town Educational College secondary education's engineering class' curriculum.")
     meta(property="og:title" content="VHK Matik")
     meta(property="og:description" content="VHK STEM is a Greenpower STEM class for high school students in the engineering class which operates as an extracurricular activity in the Old Town Educational College secondary education's engineering class' curriculum.")
-    meta(property="og:image" content="https://matik.vhk.ee/assets/VHK_matik_logo.png")
+    meta(property="og:image" content="https://matik.vhk.ee/assets/VHK_matik_logo.webp")
     meta(property="og:type" content="website")
 body
     include /_templates/navbar.pug

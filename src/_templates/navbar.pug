@@ -10,7 +10,6 @@
                 
                 .hamburger
                     a(href="javascript:void(0)" onclick="responsiveNav()")= "☰"
-                        //img(src="/assets/hamburger.png", alt="hamburger")
             else
                 div.nav-content-div
                     a(href=i.url)=i.title
@@ -28,10 +27,10 @@
         each p, locale in self.otherLocalePaths
             if locale == "en"
                 a(href= p)
-                    img(src="/assets/britain.png", alt="UK")
+                    img(src="/assets/britain.webp", alt="UK")
             else if locale == "et"
                 a(href= p)
-                    img(src="/assets/estonia.png", alt="EE")
+                    img(src="/assets/estonia.webp", alt="EE")
             else
                 a(href= p)= locale
 
