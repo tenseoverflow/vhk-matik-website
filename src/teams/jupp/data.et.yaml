@@ -5,10 +5,17 @@ hero:
   text: "Võistles Greenpower F24+ finaalis."
 
 team:
-  title: Meist
-  text: "Matiku vanim tiim, kes võistles F24+ Greenpoweri finaalis autoga Weiko Kalew ja sai 32. koha 37-st. Tiim jätkab oma auto arendamisega, et teha seda aerodünaamilisemaks ning kiiremaks. Tiimis on 11. klassi ning 12. klassi õpilased."
+  text: "## Meist
+  
+  Matiku vanim tiim, kes võistles F24+ Greenpoweri finaalis autoga Weiko Kalew ja sai 32. koha 37-st. Tiim jätkab oma auto arendamisega, et teha seda aerodünaamilisemaks ning kiiremaks. Tiimis on 11. klassi ning 12. klassi õpilased.
+  
+
+
+  [1Jupp Facebook](https://www.facebook.com/profile.php?id=100091160329656)"
 
 photos: "Fotod"
+
+memberTitle: "Meeskonna liikmed"
 
 members:
   - name: "Tristan Agur"
