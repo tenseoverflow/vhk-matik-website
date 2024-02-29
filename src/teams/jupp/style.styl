@@ -4,13 +4,14 @@
 h1
     font-size: 2.5rem;
 
+// Hero section (change background image here)
 .hero
     padding: 9em 0 5em 0;
     //margin-bottom: 2rem;
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.55)
-    ),url("/assets/P2400708.JPG");
+    ),url("/assets/onejupp/3881.jpg");
     background-position: center
     background-size: cover;
 
@@ -20,6 +21,29 @@ h1
 
 .desc
     margin-top: 2em;
+
+.photos
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    gap: 2rem
+    padding-bottom: 1.5rem
+
+.photos::after
+    content: ''
+    flex-grow: 999
+
+.photos > li
+    height: 300px
+    flex: auto
+    list-style: none
+
+.photos li img
+    border-radius: 25px
+    object-fit: cover
+    width: 100%
+    height: 100%
+    vertical-align: middle
 
 .members
     display: flex

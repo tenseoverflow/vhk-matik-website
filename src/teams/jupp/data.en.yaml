@@ -4,35 +4,40 @@ aliases:
   - "/en/teams/jupp"
 
 hero:
-  title: ÜksJupp rallitiim
+  title: 1Jupp RC
+  text: "Oldest team in VHK Matik. Competed in the Greenpower F24+ finals."
 
-teamText: "Hetkel vanim tiim Matik-us, kes võistles F24+ Greenpoweri finaalis autoga Weiko Kalew ja sai 32. koha 37-st. Tiim jätkab auto täiustamist, et saavutada veelgi kõrgemaid tulemusi."
+team:
+  title: About us
+  text: "Currently the oldest team who competed 32nd out of 37th in the F24+ Greenpower Finals with the car Weiko Kalew. The team is still continuing to improve the car. Our current focus is to make the car aerodynamic and faster. The team consists of 11th and 12th grade students."
+
+photos: "Photos"
 
 members:
   - name: "Tristan Agur"
-    role: "Ehitas kasti"
+    role: "Built box for transport"
     image: "/assets/onejupp/jupp.jpg"
   - name: "Henri Aunin"
-    role: "Veebisait"
+    role: "Website Development"
     image: "/assets/onejupp/jupp.jpg"
   - name: "Joonatan Jürisson"
-    role: "Telemeetria"
+    role: "Telemetry"
     image: "/assets/onejupp/jupp.jpg"
   - name: "Marti Zupping"
-    role: "Telemeetria"
+    role: "Telemetry"
     image: "/assets/onejupp/jupp.jpg"
   - name: "Karel Mati Kaunissaare"
-    role: "Ehitas kasti"
+    role: "Built box for transport"
     image: "/assets/onejupp/jupp.jpg"
   - name: "Tristjan Lutter"
-    role: "Elektroonika"
+    role: "Electronics"
     image: "/assets/onejupp/jupp.jpg"
   - name: "Georg Pärtel Põldmäe"
-    role: "Insener"
+    role: "Juht, Aerodynamics & Bodywork"
     image: "/assets/onejupp/jupp.jpg"
   - name: "Laur Vesingi"
-    role: "Insener"
+    role: "Bodywork"
     image: "/assets/onejupp/jupp.jpg"
   - name: "Henri Turban"
-    role: "Insener"
+    role: "Aerodynamics"
     image: "/assets/onejupp/jupp.jpg"
