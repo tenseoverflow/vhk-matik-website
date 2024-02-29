@@ -39,6 +39,10 @@ mediaItemDesc3: Terevisioonis käis kunagine meeskond Tiim McQueen.
 mediaItemTitle4: Raadio Elmar
 mediaItemDesc4: "Mõni minut muusikata: Üks noor mõte Juljus Putrinš Elektriauto ehitamisest"
 
+watch: "Vaata videot"
+read: "Loe artiklit"
+listen: "Kuula podcasti"
+
 blogTitle: Värskeim blogipostitus
 data:
   articles: "/../compile_dir/articles.et.yaml"

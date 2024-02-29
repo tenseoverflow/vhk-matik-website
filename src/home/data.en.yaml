@@ -44,6 +44,10 @@ mediaItemDesc3: "The now disbanded Team McQueen was featured on Estonian morning
 mediaItemTitle4: Raadio Elmar
 mediaItemDesc4: "A minute of non-music: a thought from Juljus Putrinš about building electric cars (podcast in estonian)"
 
+watch: "Watch the video"
+read: "Read the article"
+listen: "Listen to the podcast"
+
 blogTitle: Recent Blog Post
 data:
   articles: "/../compile_dir/articles.en.yaml"
