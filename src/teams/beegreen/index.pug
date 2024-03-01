@@ -1,4 +1,27 @@
 extends /_templates/layout.pug
 
 block content 
-    p= self.welcome 
+    .hero
+        .hero-content
+            h1= self.hero.title
+            p= self.hero.text
+    
+    .content
+
+        .desc.container.container-m!= self.md(self.team.text)
+
+        //- .gallery.container.container-m
+        //-     h2= self.photos
+        //-     ul.photos
+        //-         li
+        //-             img(src="/assets/beegreen/..." alt="...")
+
+        .container.container-m
+            h2= self.memberTitle
+            .members
+                each member in self.members
+                    .member
+                        img(src=member.image)
+                        .member-info
+                            h2= member.name
+                            p= member.role
