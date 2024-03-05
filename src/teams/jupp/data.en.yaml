@@ -9,9 +9,9 @@ hero:
 
 team:
   text: "## About us
-  
+
     Currently the oldest team who competed 32nd out of 37th in the F24+ Greenpower Finals with the car Weiko Kalew. The team is still continuing to improve the car. Current focus is to make the car aerodynamic and faster. The team consists of 11th and 12th grade students.
-    
+
 
 
     [1Jupp Facebook](https://www.facebook.com/profile.php?id=100091160329656)"
@@ -21,30 +21,31 @@ photos: "Photos"
 memberTitle: "Team Members"
 
 members:
-  - name: "Tristan Agur"
-    role: "Built box for transport"
-    image: "/assets/onejupp/jupp.jpg"
   - name: "Henri Aunin"
     role: "Website Development"
-    image: "/assets/onejupp/jupp.jpg"
+    image: "/assets/onejupp/IMG_3528.JPG"
+    imageChange: "/assets/onejupp/IMG_3532.JPG"
   - name: "Joonatan Jürisson"
     role: "Telemetry"
-    image: "/assets/onejupp/jupp.jpg"
+    image: "/assets/onejupp/IMG_3501.JPG"
+    imageChange: "/assets/onejupp/IMG_3504.JPG"
   - name: "Marti Zupping"
     role: "Telemetry"
-    image: "/assets/onejupp/jupp.jpg"
-  - name: "Karel Mati Kaunissaare"
-    role: "Built box for transport"
-    image: "/assets/onejupp/jupp.jpg"
+    image: "/assets/onejupp/IMG_3496.JPG"
+    imageChange: "/assets/onejupp/IMG_3500.JPG"
   - name: "Tristjan Lutter"
     role: "Electronics"
-    image: "/assets/onejupp/jupp.jpg"
+    image: "/assets/onejupp/IMG_3506.JPG"
+    imageChange: "/assets/onejupp/IMG_3510.JPG"
   - name: "Georg Pärtel Põldmäe"
     role: "Leader, Aerodynamics & Bodywork"
-    image: "/assets/onejupp/jupp.jpg"
+    image: "/assets/onejupp/IMG_3523.JPG"
+    imageChange: "/assets/onejupp/IMG_3526.JPG"
   - name: "Laur Vesingi"
     role: "Bodywork"
-    image: "/assets/onejupp/jupp.jpg"
+    image: "/assets/onejupp/IMG_3515.JPG"
+    imageChange: "/assets/onejupp/IMG_3521.JPG"
   - name: "Henri Turban"
     role: "Aerodynamics"
-    image: "/assets/onejupp/jupp.jpg"
+    image: "/assets/onejupp/IMG_3511.JPG"
+    imageChange: "/assets/onejupp/IMG_3514.JPG"
