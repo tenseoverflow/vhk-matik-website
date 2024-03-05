@@ -19,13 +19,20 @@ block content
                     img(src="/assets/onejupp/1708959115437.webp" alt="Man agressively sawing")
                 li
                     img(src="/assets/onejupp/3872.webp" alt="Safety issues in the workshop")
+                li 
+                    video(height="300" controls) 
+                        source(src="/assets/onejupp/IMG_2580.webm" type="video/webm")
+                        source(src="/assets/onejupp/IMG_2580.mp4" type="video/mp4")
 
         .container.container-m
             h2= self.memberTitle
             .members
                 each member in self.members
                     .member
-                        img(src=member.image)
+                        if member.imageChange
+                            img(src=member.image onmouseover=`this.src='${member.imageChange}';` onmouseout=`this.src='${member.image}';`)
+                        else 
+                            img(src=member.image)
                         .member-info
                             h2= member.name
                             p= member.role

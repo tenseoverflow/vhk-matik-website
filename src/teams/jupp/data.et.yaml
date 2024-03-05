@@ -6,42 +6,43 @@ hero:
 
 team:
   text: "## Meist
-  
-  Matiku vanim tiim, kes võistles F24+ Greenpoweri finaalis autoga Weiko Kalew ja sai 32. koha 37-st. Tiim jätkab oma auto arendamisega, et teha seda aerodünaamilisemaks ning kiiremaks. Tiimis on 11. klassi ning 12. klassi õpilased.
-  
+
+    Matiku vanim tiim, kes võistles F24+ Greenpoweri finaalis autoga Weiko Kalew ja sai 32. koha 37-st. Tiim jätkab oma auto arendamisega, et teha seda aerodünaamilisemaks ning kiiremaks. Tiimis on 11. klassi ning 12. klassi õpilased.
 
 
-  [1Jupp Facebook](https://www.facebook.com/profile.php?id=100091160329656)"
+
+    [1Jupp Facebook](https://www.facebook.com/profile.php?id=100091160329656)"
 
 photos: "Fotod"
 
 memberTitle: "Meeskonna liikmed"
 
 members:
-  - name: "Tristan Agur"
-    role: "Ehitas kasti"
-    image: "/assets/onejupp/jupp.jpg"
   - name: "Henri Aunin"
     role: "Veebisaidi arendaja"
-    image: "/assets/onejupp/jupp.jpg"
+    image: "/assets/onejupp/IMG_3528.JPG"
+    imageChange: "/assets/onejupp/IMG_3532.JPG"
   - name: "Joonatan Jürisson"
     role: "Telemeetria"
-    image: "/assets/onejupp/jupp.jpg"
+    image: "/assets/onejupp/IMG_3501.JPG"
+    imageChange: "/assets/onejupp/IMG_3504.JPG"
   - name: "Marti Zupping"
     role: "Telemeetria"
-    image: "/assets/onejupp/jupp.jpg"
-  - name: "Karel Mati Kaunissaare"
-    role: "Ehitas kasti"
-    image: "/assets/onejupp/jupp.jpg"
+    image: "/assets/onejupp/IMG_3496.JPG"
+    imageChange: "/assets/onejupp/IMG_3500.JPG"
   - name: "Tristjan Lutter"
     role: "Elektroonika"
-    image: "/assets/onejupp/jupp.jpg"
+    image: "/assets/onejupp/IMG_3506.JPG"
+    imageChange: "/assets/onejupp/IMG_3510.JPG"
   - name: "Georg Pärtel Põldmäe"
     role: "Juht, aerodünaamika ja keretööd"
-    image: "/assets/onejupp/jupp.jpg"
+    image: "/assets/onejupp/IMG_3523.JPG"
+    imageChange: "/assets/onejupp/IMG_3526.JPG"
   - name: "Laur Vesingi"
     role: "Keretööd"
-    image: "/assets/onejupp/jupp.jpg"
+    image: "/assets/onejupp/IMG_3515.JPG"
+    imageChange: "/assets/onejupp/IMG_3521.JPG"
   - name: "Henri Turban"
     role: "Aerodünaamika"
-    image: "/assets/onejupp/jupp.jpg"
+    image: "/assets/onejupp/IMG_3511.JPG"
+    imageChange: "/assets/onejupp/IMG_3514.JPG"

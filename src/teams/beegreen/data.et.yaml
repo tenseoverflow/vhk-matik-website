@@ -1,3 +1,45 @@
-path: '/tiimid/beegreen'
+path: "/tiimid/beegreen"
 
-welcome: Teretulemast BeeGreen'i lehele
+hero:
+  title: "BeeGreen"
+  text: "Kunagine Tiim McQueen on nüüd BeeGreen, kes ehitab oma auto nullist."
+
+team:
+  text: "
+    ## Meist
+  
+    Kunagine Tiim McQueen on nüüd BeeGreen, kes ehitab oma auto nullist. Praegune eesmärk on minna 2024 suve alguses võistlema Hispaaniasse.
+    "
+
+photos: "Fotod"
+
+memberTitle: "Meeskonna liikmed"
+
+members:
+  - name: "Märten Emil Arro"
+    role: "Juhtimismehhanism, 3D modelleerimine, telemeetria"
+    image: "/assets/beegreen/person_placeholder.jpg"
+  - name: "Evert Härm"
+    role: "Elektroonika"
+    image: "/assets/beegreen/person_placeholder.jpg"
+  - name: "Jana Ivantšenko"
+    role: "Disain, sotsiaalmeedia"
+    image: "/assets/beegreen/person_placeholder.jpg"
+  - name: "Paul Kask"
+    role: "Kere, 3D modelleerimine, telemeetria"
+    image: "/assets/beegreen/person_placeholder.jpg"
+  - name: "Min-Ho Kim"
+    role: "Rattad"
+    image: "/assets/beegreen/person_placeholder.jpg"
+  - name: "Mia Mirtel Kitt"
+    role: "Sotsiaalmeedia, turundus"
+    image: "/assets/beegreen/person_placeholder.jpg"
+  - name: "Kaur Laidma"
+    role: "Aerodünaamika, 3D modelleerimine"
+    image: "/assets/beegreen/person_placeholder.jpg"
+  - name: "Juljus Putrinš"
+    role: "Juht, telemeetria, veebileht"
+    image: "/assets/beegreen/person_placeholder.jpg"
+  - name: "Rasmus Tuum"
+    role: "Mehhaanika"
+    image: "/assets/beegreen/person_placeholder.jpg"
