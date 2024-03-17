@@ -1,0 +1,36 @@
+path: "/tiimid/pinkpython"
+
+hero:
+  title: Pink Python
+  text: "2023 sügisel asutatud uus tiim."
+
+team:
+  text: "## Meist
+
+Meie eesmärk garaažist finišijooneni on piire ületada, õppida ja nautida.
+    "
+
+memberTitle: "Meeskonna liikmed"
+
+members:
+  - name: "Helena Järg"
+    role: "Sõitja, aerodünaamika"
+    image: ""
+  - name: "Nora Liisa Kõiva"
+    role: "Sõitja, keretööd"
+    image: ""
+  - name: "Lizett Vahter"
+    role: "Veebsait, telemeetria, keretööd"
+    image: ""
+  - name: "Arti Oliver Tamme"
+    role: "Keretööd"
+    image: ""
+  - name: "Hendrik Hansson"
+    role: "Elektroonika, aerodünaamika"
+    image: ""
+  - name: "Uku Orgse"
+    role: "Keretööd, aerodünaamika"
+    image: ""
+  - name: "Siim Sillaste"
+    role: "Keretööd"
+    image: ""

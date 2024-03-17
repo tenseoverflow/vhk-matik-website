@@ -1,0 +1,21 @@
+extends /_templates/layout.pug
+
+block content 
+    .hero
+        .hero-content
+            h1= self.hero.title
+            p= self.hero.text
+    
+    .content
+
+        .desc.container.container-m!= self.md(self.team.text)
+
+        .container.container-m
+            h2= self.memberTitle
+            .members
+                each member in self.members
+                    .member
+                        img(src=member.image)
+                        .member-info
+                            h2= member.name
+                            p= member.role

@@ -13,8 +13,8 @@ nav:
       url: /teams/jupp
     - title: Okas
       url: /teams/okas
-    - title: Pink Floyd
-      url: /teams/pinkfloyd
+    - title: Pink Python
+      url: /teams/pinkpython
   blog:
     title: Blog
     url: /blog

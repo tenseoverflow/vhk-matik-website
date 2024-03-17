@@ -1,0 +1,42 @@
+path: "/teams/pinkpython"
+
+aliases:
+  - "/en/teams/pinkpython"
+
+hero:
+  title: "Pink Python"
+  text: "A new team established in the fall of 2023. "
+
+team:
+  text: "
+    ## About us
+  
+   From the garage to the finish line, we're all about pushing limits, having a blast and having a wild ride.
+    "
+
+photos: "Photos"
+welcome: "tere"
+memberTitle: "Team Members"
+
+members:
+  - name: "Helena Järg"
+    role: "Driver, aerodynamics"
+    image: ""
+  - name: "Nora Liisa Kõiva"
+    role: "Driver, bodywork"
+    image: ""
+  - name: "Lizett Vahter"
+    role: "Website development, telemetry, bodywork"
+    image: ""
+  - name: "Arti Oliver Tamme"
+    role: "Bodywork"
+    image: ""
+  - name: "Hendrik Hansson"
+    role: "Electronics, aerodynamics"
+    image: ""
+  - name: "Uku Orgse"
+    role: "Bodywork, aerodynamics"
+    image: ""
+  - name: "Siim Sillaste"
+    role: "Bodywork"
+    image: ""
