@@ -10,8 +10,8 @@ hero:
 team:
   text: "
     ## About us
-  
-   From the garage to the finish line, we're all about pushing limits, having a blast and having a wild ride.
+
+    From the garage to the finish line, we're all about pushing limits, having a blast and having a wild ride.
     "
 
 photos: "Photos"
@@ -21,22 +21,22 @@ memberTitle: "Team Members"
 members:
   - name: "Helena Järg"
     role: "Driver, aerodynamics"
-    image: ""
+    image: "/assets/avatar.jpg"
   - name: "Nora Liisa Kõiva"
     role: "Driver, bodywork"
-    image: ""
+    image: "/assets/avatar.jpg"
   - name: "Lizett Vahter"
     role: "Website development, telemetry, bodywork"
-    image: ""
+    image: "/assets/avatar.jpg"
   - name: "Arti Oliver Tamme"
     role: "Bodywork"
-    image: ""
+    image: "/assets/avatar.jpg"
   - name: "Hendrik Hansson"
     role: "Electronics, aerodynamics"
-    image: ""
+    image: "/assets/avatar.jpg"
   - name: "Uku Orgse"
     role: "Bodywork, aerodynamics"
-    image: ""
+    image: "/assets/avatar.jpg"
   - name: "Siim Sillaste"
     role: "Bodywork"
-    image: ""
+    image: "/assets/avatar.jpg"
