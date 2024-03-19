@@ -29,7 +29,7 @@ members:
     role: "Rattad"
     image: "/assets/beegreen/min-ho.jpg"
   - name: "Mia Mirtel Kitt"
-    role: "Sotsiaalmeedia, turundus"
+    role: "Sotsiaalmeedia, turundus, sõitja"
     image: "/assets/beegreen/mia.jpg"
   - name: "Kaur Laidma"
     role: "Aerodünaamika, 3D modelleerimine, telemeetria"

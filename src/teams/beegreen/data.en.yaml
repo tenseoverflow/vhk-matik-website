@@ -32,7 +32,7 @@ members:
     role: "Wheels"
     image: "/assets/beegreen/min-ho.jpg"
   - name: "Mia Mirtel Kitt"
-    role: "Social media, marketing"
+    role: "Social media, marketing, driver"
     image: "/assets/beegreen/mia.jpg"
   - name: "Kaur Laidma"
     role: "Aerodynamics, 3D modeling, telemetry"
