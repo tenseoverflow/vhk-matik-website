@@ -37,6 +37,4 @@ members:
   - name: "Uku Orgse"
     role: "Bodywork, aerodynamics"
     image: "/assets/avatar.jpg"
-  - name: "Siim Sillaste"
-    role: "Bodywork"
-    image: "/assets/avatar.jpg"
+

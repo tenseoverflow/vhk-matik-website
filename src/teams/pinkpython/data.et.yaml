@@ -31,6 +31,4 @@ members:
   - name: "Uku Orgse"
     role: "Keretööd, aerodünaamika"
     image: "/assets/avatar.jpg"
-  - name: "Siim Sillaste"
-    role: "Keretööd"
-    image: "/assets/avatar.jpg"
+

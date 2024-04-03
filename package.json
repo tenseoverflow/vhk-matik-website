@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "entu-ssg": "^5.6.12"
+    "entu-ssg": "^5.6.13"
   },
   "name": "vhkmatik-website",
   "description": "",
