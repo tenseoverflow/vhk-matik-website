@@ -3,14 +3,12 @@ path: "/sponsor"
 aliases:
   - "/en/sponsor"
 
-sponsorsTitle: Sponsors
-
 sponsorTitle: Sponsor us
 
 sponsorText: If you are a company or an individual who would like to support us, please contact us or donate to us via bank payment with message "MATIK".
 
 costs: "Currently we are looking sponsors to cover the following costs:"
-cost1: "Materials: PVC plates, electronic components (current, voltage, temperature sensors; GPS; ESP or LoRa capable boards...)"
+cost1: "Materials: PVC plates, epoxy for putting on glass fiber, electronic components (current, voltage, temperature sensors; GPS; ESP or LoRa capable boards...)"
 cost2: "Building the BeeGreen car: materials, welding company (we already have the drawings ready), glass or carbon fiber, fasteners..."
 cost3: "Test drives: for each test drive, at least 100€ is spent on renting a van."
 cost4: "Car logistics: in order to participate in the competitions, the car needs to be transported. It depends on where and how far the competitions take place, we have larger costs but it is not cheap in any case."
