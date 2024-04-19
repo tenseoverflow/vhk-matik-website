@@ -29,7 +29,7 @@ members:
     role: "Bodywork, 3D modeling, telemetry"
     image: "/assets/beegreen/paul.jpg"
   - name: "Min-Ho Kim"
-    role: "Wheels"
+    role: "Wheels, brakes"
     image: "/assets/beegreen/min-ho.jpg"
   - name: "Mia Mirtel Kitt"
     role: "Social media, marketing, driver"
