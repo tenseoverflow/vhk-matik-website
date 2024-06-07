@@ -15,17 +15,10 @@ block content
             
             p= self.costs
             ul
-                li= self.cost1
-                li= self.cost2
-                li= self.cost3
+                each cost in self.costy
+                    li= cost
             
             p= self.neededItems
             ul
-                li= self.item1
-                li= self.item2
-                li= self.item3
-                li= self.item4
-                li= self.item5
-                li= self.item6
-                //- li= self.item7
-                //- li= self.item8
+                each need in self.needed
+                    li= need
