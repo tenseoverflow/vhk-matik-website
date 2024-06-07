@@ -8,17 +8,21 @@ sponsorTitle: Sponsor us
 sponsorText: If you are a company or an individual who would like to support us, please contact us or donate to us via bank payment with message "MATIK".
 
 costs: "Currently we are looking sponsors to cover the following costs:"
-cost1: "Materials: PVC plates, epoxy for putting on glass fiber, electronic components (current, voltage, temperature sensors; GPS; ESP or LoRa capable boards...)"
-cost2: "Building the BeeGreen car: materials, welding company (we already have the drawings ready), glass or carbon fiber, fasteners..."
-cost3: "Test drives: for each test drive, at least 100€ is spent on renting a van."
-cost4: "Car logistics: in order to participate in the competitions, the car needs to be transported. It depends on where and how far the competitions take place, we have larger costs but it is not cheap in any case."
+costy:
+  - "Materials: PVC plates, epoxy for putting on glass fiber, electronic components (current, voltage, temperature sensors; GPS; ESP or LoRa capable boards...)"
+  - "Building the BeeGreen car: materials, welding company (we already have the drawings ready), glass or carbon fiber, fasteners..."
+  - "Test drives: for each test drive, at least 100€ is spent on renting a van."
+  - "Car logistics: in order to participate in the competitions, the car needs to be transported. It depends on where and how far the competitions take place, we have larger costs but it is not cheap in any case. We would at least require a trailer and a minibus for competitions taking place in the Schengen area. Any other logistics solution is also welcome."
 
 neededItems: We are also looking for the following items
-item1: Helmets
-item2: Driving overall
-item3: Hot gun
-item4: Compressor
-item5: Drills (Bosch)
-item6: Air dryer
+needed:
+  - Helmets
+  - Driving overall
+  - Hot gun
+  - Compressor
+  - Drills (Bosch)
+  - Air dryer
+  - Trailer
+  - Minibus or car with a trailer hitch
 
 contactLink: Contact us (matik@vhk.ee)

@@ -5,17 +5,22 @@ sponsorTitle: Kuidas toetada?
 sponsorText: Kui oled firma või eraisik, kes sooviks meid toetada, siis annetage sõnumiga "MATIK" või võtke meiega ühendust.
 
 costs: "Hetkel otsime sponsoreid, kes aitaks meid kata järgmised kulud: "
-cost1: "Materjalid: PVC plaadid, epoksüvaik klaaskiu paneku jaoks, elektroonika komponendid (voolu, pinge, temperatuuri andurid; GPS; ESP või LoRa võimelised plaadid...)"
-cost2: "BeeGreeni auto ehitamine: materjalid, keevitus firma (meil on juba joonised valmis), klaas või susinikkiud, kinnitusvahendid..."
-cost3: "Proovisõidud: iga proovisõidu jaoks läheb vähemalt 100€ kaubiku rentimise peale. "
-cost4: "Auto logistika: selleks, et võistlustel osaleda, on vaja autot transportida. Sõltub kuhu ja kui kaugel võistlused toimuvad meil on suuremad kulusid aga see igal juhul odav ei ole."
+costy:
+  - "Materjalid: PVC plaadid, epoksüvaik klaaskiu paneku jaoks, elektroonika komponendid (voolu, pinge, temperatuuri andurid; GPS; ESP või LoRa võimelised plaadid...)"
+  - "BeeGreeni auto ehitamine: materjalid, keevitus firma (meil on juba joonised valmis), klaas või susinikkiud, kinnitusvahendid..."
+  - "Proovisõidud: iga proovisõidu jaoks läheb vähemalt 100€ kaubiku rentimise peale. "
+  - "Auto logistika: selleks, et võistlustel osaleda, on vaja autot transportida. Sõltub kuhu ja kui kaugel võistlused toimuvad meil on suuremad kulusid aga see igal juhul odav ei ole. Saame hakkama haagise ja autobussiga ELi piires toimuvate võistluste jaoks, aga igasugune logistika abi on teretulnud."
 
 neededItems: "Saab toetada ka järgmiste asjadega, mis on meil vaja: "
-item1: Täispea kiivrid
-item2: Kombekad
-item3: Kuumapüstol
-item4: Kompressor
-item5: Puurid (Bosch)
-item6: Niiskusekoguja / Õhukuivati
+
+needed:
+  - Täispea kiivrid
+  - Kombekad
+  - Kuumapüstol
+  - Kompressor
+  - Puurid (Bosch)
+  - Niiskusekoguja / Õhukuivati
+  - Haagis
+  - Minibuss või auto haagisekonksuga
 
 contactLink: Võta meiega ühendust (matik@vhk.ee)
