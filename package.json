@@ -3,13 +3,14 @@
     "entu-ssg": "^5.6.13"
   },
   "name": "vhkmatik-website",
-  "description": "",
+  "description": "matik.vhk.ee",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "bash ./build.sh",
-    "serve": "bash ./serve.sh"
+    "build": "npx entu-ssg build config.yaml",
+    "dev": "npx entu-ssg serve config.yaml",
+    "prebuild": "mkdir -p ./compile_dir && mkdir -p ./dist/assets && cp -r ./src/assets ./dist/ && node ./prebuild_scripts/prebuild_blog.en.js && node ./prebuild_scripts/prebuild_blog.et.js"
   },
-  "author": "",
+  "author": "VHK",
   "license": "ISC"
 }
