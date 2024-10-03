@@ -1,10 +1,10 @@
 # VHKmatik-Website
 
-Created using https://entu.site/
+Created using [Entu Site](https://entu.site/)
 
 ## Requirements
 
-Up to date versions of: NPM, Node.js and bash
+Up to date versions of: [NPM](https://www.npmjs.com/) and [Node.js](https://nodejs.org/).
 
 ## Installation
 
@@ -42,7 +42,9 @@ or with a bash script:
 
 ```
 
-The website will be running on port 4000 so you can check it here: [http://localhost:4000/](http://localhost:4000)
+Exit via `Ctrl + C`.
+
+The website will be running on port 4000: [http://localhost:4000/](http://localhost:4000)
 
 ### Blog posts
 
