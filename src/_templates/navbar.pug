@@ -1,26 +1,52 @@
 .navbar(id="navbar")
 
-    for i in self.nav
-        if i.url
-            if i.title == "VHK Matik"
-                div.navbar-home-logo-div
-                    a(href=i.url)
-                        img.navbar-home-logo(src="/assets/VHK_matik_logo.webp", alt="VHK_matik_logo")
-                    a(href=i.url)=i.title
-                
-                .hamburger
-                    a(href="javascript:void(0)" onclick="responsiveNav()")= "☰"
-            else
-                div.nav-content-div
-                    a(href=i.url)=i.title
+    each p, locale in self.otherLocalePaths
 
-        else
-            div.nav-content-div
-                ul.dropdown Teams
-                    div.teams-dropdown
-                        for j in i 
-                            li
-                                a(href=j.url)=j.title
+        if locale == "et"
+            for i in self.nav
+                if i.url
+                    if i.title == "VHK Matik"
+                        div.navbar-home-logo-div
+                            a(href=i.url)
+                                        img.navbar-home-logo(src="/assets/VHK_matik_logo.webp", alt="VHK_matik_logo")
+                            a(href=i.url)=i.title
+
+                        .hamburger
+                            a(href="javascript:void(0)" onclick="responsiveNav()")= "☰"
+                    else
+                        div.nav-content-div
+                            a(href=i.url)=i.title
+
+                else
+                    div.nav-content-div
+                        ul.dropdown Teams
+                            div.teams-dropdown
+                                for j in i 
+                                    li
+                                        a(href=j.url)=j.title
+
+        if locale == "en"
+            for i in self.nav
+                if i.url
+                    if i.title == "VHK Matik"
+                        div.navbar-home-logo-div
+                            a(href=i.url)
+                                    img.navbar-home-logo(src="/assets/VHK_matik_logo.webp", alt="VHK_matik_logo")
+                            a(href=i.url)=i.title
+
+                        .hamburger
+                            a(href="javascript:void(0)" onclick="responsiveNav()")= "☰"
+                    else
+                        div.nav-content-div
+                            a(href=i.url)=i.title
+
+                else
+                    div.nav-content-div
+                        ul.dropdown Meeskonnad
+                            div.teams-dropdown
+                                for j in i 
+                                    li
+                                        a(href=j.url)=j.title
 
 
     .nav-lang.nav-content-div

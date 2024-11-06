@@ -7,10 +7,12 @@ nav:
   #   title: Kontakt
   #   url: /et/kontakt
   teams:
-    - title: BeeGreen
-      url: /et/tiimid/beegreen
     - title: 1Jupp
       url: /et/tiimid/jupp
+    - title: BeeGreen
+      url: /et/tiimid/beegreen
+    - title: Vurts
+      url: /et/tiimid/vurts
     - title: Okas
       url: /et/tiimid/okas
     - title: Pink Python
