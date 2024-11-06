@@ -1,0 +1,44 @@
+path: "/tiimid/vurts"
+
+
+hero:
+  title: Vurts
+  text: "Asutatud 2024. aastal"
+
+team:
+  text: "## Meist
+
+    Oleme uus tiim
+
+
+    [Email: estimators.matik@gmail. com]
+    
+    [Instagram](https://www.instagram.com/estimators_vhk/#)"
+
+memberTitle: "Meeskonna liikmed"
+
+members:
+  - name: "Kenneth Urban"
+    role: "Veebilehe Arendus"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+  - name: "Georg Oopkaup"
+    role: "Üleüldine Järelvalve"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+  - name: "Karl Villem Kaal"
+    role: "Keredisaini Abi"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+  - name: "Laur Mattias Jüriöö"
+    role: "Keredisain, Telemeetria ja Elektroonika"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+  - name: "Illia Yaremenko"
+    role: "Turundus ja Sotsiaalmeedia"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+    name: "Margus Möller"
+    role: "Mehaanika"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"

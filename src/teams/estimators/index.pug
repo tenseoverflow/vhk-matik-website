@@ -1,0 +1,24 @@
+extends /_templates/layout.pug
+
+block content 
+    .hero
+        .hero-content
+            h1= self.hero.title
+            p= self.hero.text
+    
+    .content
+
+        .desc.container.container-m!= self.md(self.team.text)
+
+        .container.container-m
+            h2= self.memberTitle
+            .members
+                each member in self.members
+                    .member
+                        if member.imageChange
+                            img(src=member.image onmouseover=`this.src='${member.imageChange}';` onmouseout=`this.src='${member.image}';`)
+                        else 
+                            img(src=member.image)
+                        .member-info
+                            h2= member.name
+                            p= member.role

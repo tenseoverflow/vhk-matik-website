@@ -1,0 +1,45 @@
+path: "/teams/estimators"
+
+aliases:
+  - "/en/teams/estimators"
+
+hero:
+  title: Estimators
+  text: "Est. 2024"
+
+team:
+  text: "## About us
+
+    We are a newely established team
+
+
+    [Email: estimators.matik@gmail. com]
+
+    [Instagram](https://www.instagram.com/estimators_vhk/#)"
+
+memberTitle: "Team Members"
+
+members:
+  - name: "Kenneth Urban"
+    role: "Website Development"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+  - name: "Georg Oopkaup"
+    role: "General Supervision"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+  - name: "Karl Villem Kaal"
+    role: "Bodywork assistant"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+  - name: "Laur Mattias Jüriöö"
+    role: "Telemetry, Electronics & Bodywork"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+  - name: "Illia Yaremenko"
+    role: "Marketing & Promotional Content"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+    name: "Margus Möller"
+    role: "Mechanical Engineering & Social Media"
+    image: "/assets/avatar.webp"
