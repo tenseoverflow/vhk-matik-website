@@ -1,0 +1,39 @@
+path: "/tiimid/vurts"
+
+
+hero:
+  title: Vurts
+  text: "Asutatud 2024. aastal"
+
+team:
+  text: "## Meist
+
+    Pikem kirjeldus
+
+
+
+    [Facebook](https://www.facebook.com/profile.php?id=61566576933015)"
+
+memberTitle: "Meeskonna liikmed"
+
+members:
+  - name: "Karl Marius Lensment"
+    role: "Veebilehe Arendus"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+  - name: "Kaspar Tiinas"
+    role: "Telemeetria ja Elektroonika"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+  - name: "Karl Robert Reps"
+    role: "Mehaanika"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+  - name: "Paul Sild"
+    role: "Kehadisain"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+  - name: "Mathias Kermes"
+    role: "Turundus ja Sotsiaalmeedia"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"

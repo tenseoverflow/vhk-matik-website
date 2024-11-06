@@ -1,0 +1,41 @@
+path: "/teams/vurts"
+
+aliases:
+  - "/en/teams/vurts"
+
+hero:
+  title: Vurts
+  text: "Est. 2024"
+
+team:
+  text: "## About us
+
+    Longer description
+
+
+
+    [Facebook](hyperlink)"
+
+memberTitle: "Team Members"
+
+members:
+  - name: "Karl Marius Lensment"
+    role: "Website Development"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+  - name: "Kaspar Tiinas"
+    role: "Telemetry & Electronics"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+  - name: "Karl Robert Reps"
+    role: "Mechanical Engineering"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+  - name: "Paul Sild"
+    role: "Bodywork & Design"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
+  - name: "Mathias Kermes"
+    role: "Marketing & Promotional Content"
+    image: "/assets/avatar.webp"
+    imageChange: "/assets/avatar.webp"
