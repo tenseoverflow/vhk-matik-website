@@ -6,7 +6,8 @@ hero:
   text: "Asutatud 2024. aastal"
 
 team:
-  text: "## Meist
+  text:
+    "## Meist
 
     Oleme uus tiim
 
@@ -38,7 +39,7 @@ members:
     role: "Turundus ja Sotsiaalmeedia"
     image: "/assets/avatar.webp"
     imageChange: "/assets/avatar.webp"
-    name: "Margus Möller"
+  - name: "Margus Möller"
     role: "Mehaanika"
     image: "/assets/avatar.webp"
     imageChange: "/assets/avatar.webp"

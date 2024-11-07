@@ -8,7 +8,8 @@ hero:
   text: "Est. 2024"
 
 team:
-  text: "## About us
+  text:
+    "## About us
 
     We are a newely established team
 
@@ -40,6 +41,6 @@ members:
     role: "Marketing & Promotional Content"
     image: "/assets/avatar.webp"
     imageChange: "/assets/avatar.webp"
-    name: "Margus Möller"
+  - name: "Margus Möller"
     role: "Mechanical Engineering & Social Media"
     image: "/assets/avatar.webp"
