@@ -4,8 +4,9 @@ aliases:
   - "/en/teams/pinkpython"
 
 hero:
-  title: "Pink Python"
-  text: "A new team established in the fall of 2023. "
+  title: Cotton Candy Cruiser
+  text: "A new team established in the fall of 2023. 
+      Formerly known as Pink Python."
 
 team:
   text: "
@@ -15,26 +16,28 @@ team:
     "
 
 photos: "Photos"
-welcome: "tere"
 memberTitle: "Team Members"
 
 members:
-  - name: "Helena Järg"
-    role: "Driver, aerodynamics"
-    image: "/assets/pinkpython/helena.webp"
-  - name: "Nora Liisa Kõiva"
-    role: "Driver, bodywork"
+  - name: "Gren Hõbemägi"
+    role: "Bodywork"
     image: "/assets/avatar.webp"
-  - name: "Lizett Vahter"
-    role: "Website development, telemetry, bodywork"
-    image: "/assets/pinkpython/lizett.webp"
+  - name: "Iskander Jürilo"
+    role: "Bodywork"
+    image: "/assets/avatar.webp"
+  - name: "Eerik Abel"
+    role: "Bodywork"
+    image: "/assets/avatar.webp"
   - name: "Arti Oliver Tamme"
     role: "Bodywork"
-    image: "/assets/pinkpython/arti.webp"
+    image: "/assets/avatar.webp"
   - name: "Hendrik Hansson"
-    role: "Electronics, aerodynamics"
-    image: "/assets/pinkpython/hendrik.webp"
+    role: "Bodywork"
+    image: "/assets/avatar.webp"
   - name: "Uku Orgse"
-    role: "Bodywork, aerodynamics"
-    image: "/assets/pinkpython/uku.webp"
+    role: "Bodywork"
+    image: "/assets/avatar.webp"
+  - name: "Lizett Vahter"
+    role: "Website, Bodywork"
+    image: "/assets/avatar.webp"
 

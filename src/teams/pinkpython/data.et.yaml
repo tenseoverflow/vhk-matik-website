@@ -1,34 +1,38 @@
 path: "/tiimid/pinkpython"
 
 hero:
-  title: Pink Python
+  title: Cotton Candy Cruiser
   text: "2023 sügisel asutatud uus tiim."
 
 team:
   text: "## Meist
 
-Meie eesmärk garaažist finišijooneni on piire ületada, õppida ja nautida.
+    Meie eesmärk garaažist finišijooneni on piire ületada, õppida ja nautida.
+    Varem tuntud kui Pink Python.
     "
 
 memberTitle: "Meeskonna liikmed"
 
 members:
-  - name: "Helena Järg"
-    role: "Sõitja, aerodünaamika"
-    image: "/assets/pinkpython/helena.webp"
-  - name: "Nora Liisa Kõiva"
-    role: "Sõitja, keretööd"
+  - name: "Gren Hõbemägi"
+    role: "Keretööd"
     image: "/assets/avatar.webp"
-  - name: "Lizett Vahter"
-    role: "Veebsait, telemeetria, keretööd"
-    image: "/assets/pinkpython/lizett.webp"
+  - name: "Iskander Jürilo"
+    role: "Keretööd"
+    image: "/assets/avatar.webp"
+  - name: "Eerik Abel"
+    role: "Keretööd"
+    image: "/assets/avatar.webp"
   - name: "Arti Oliver Tamme"
     role: "Keretööd"
-    image: "/assets/pinkpython/arti.webp"
+    image: "/assets/avatar.webp"
   - name: "Hendrik Hansson"
-    role: "Elektroonika, aerodünaamika"
-    image: "/assets/pinkpython/hendrik.webp"
+    role: "Keretööd"
+    image: "/assets/avatar.webp"
   - name: "Uku Orgse"
-    role: "Keretööd, aerodünaamika"
-    image: "/assets/pinkpython/uku.webp"
+    role: "Keretööd"
+    image: "/assets/avatar.webp"
+  - name: "Lizett Vahter"
+    role: "Veebsait, keretööd"
+    image: "/assets/avatar.webp"
 
