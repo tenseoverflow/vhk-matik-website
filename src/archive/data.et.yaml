@@ -1,0 +1,17 @@
+path: "/arhiiv"
+
+hero:
+  title: Arhiiv
+  desc: See leht on siin eesmärgiga näidata teile meie ajalugu – endiseid meeskondi, pilte meie tööprotsessist, jäädvustusi võistlustelt ja muid telgitaguseid tegevusi.
+
+teams:
+  title: Endised meeskonnad
+  jupp: 
+    title: ÜksJupp
+    text: Meeskond mis loodi juba MATIKu algusaegadel. On käinud kahel korral Inglismaal võistlemas, viimane kord 2024. aasta sügisel.
+
+seeMore: Loe edasi
+
+gallery:
+  title: Galerii
+  text: Koostamisel

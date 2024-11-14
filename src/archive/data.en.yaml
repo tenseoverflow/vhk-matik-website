@@ -1,0 +1,20 @@
+path: "/archive"
+
+aliases:
+  - "/en/archive"
+
+hero:
+  title: Archive
+  desc: This page is here to show you our roots – our former teams, photos of our work process, captures taken during competitions, and more.
+
+teams:
+  title: Former teams
+  jupp: 
+    title: Üks Jupp
+    text: A group which was formed in the early days of VHK STEM. Competed in England twice with the last time being in the fall of 2024.
+
+seeMore: Read more
+
+gallery:
+  title: Gallery
+  text: Coming soon

@@ -23,6 +23,9 @@ nav:
   sponsor:
     title: Sponsor
     url: /sponsor
+#   archive:
+#     title: Archive
+#     url: /archive
 
 footer:
   sitemap: "Sitemap"

@@ -1,0 +1,23 @@
+extends /_templates/layout.pug
+
+block content 
+    .hero
+        .hero-content
+            h1= self.hero.title
+            p= self.hero.desc
+    
+
+    .content
+        .teams.container.container-m
+            h1= self.teams.title
+            .teams
+                .jupp.team-item
+                    img(src="/assets/onejupp/P2400708.webp" alt="1 Jupp team photo")
+                    .team-item-content
+                        h2= self.teams.jupp.title
+                        p= self.teams.jupp.text
+                        a.link-button(href=self.nav.teams[0].url)= self.seeMore
+        
+        .gallery.container.container-m
+            h1= self.gallery.title
+            p= self.gallery.text

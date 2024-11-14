@@ -23,6 +23,9 @@ nav:
   sponsor:
     title: Sponsor
     url: /et/sponsor
+#   archive:
+#     title: Arhiiv
+#     url: /et/arhiiv
 
 footer:
   sitemap: "Lingid"
