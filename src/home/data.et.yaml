@@ -6,33 +6,23 @@ hero:
 
 sponsorsTitle: Sponsorid
 
-aboutUsAsMarkdown: "
-  # Meist
+aboutUs: 
+  title: Meist
+  text: VHK MATIKu kursus on õppekava väline tegevus mõeldud Vanalinna Hariduskolleegiumi inseneeriaharu õpilastele. Õpilased on jaotatud nelja gruppi ning iga meeskond tegeleb oma Greenpoweri vormeli ehitamisega. Igal tiimiliikmel on meeskonnas oma valdkond mille eest ta vastutama peab – auto kehadisainist ja mehaanikast kuni turunduse ja brändinguni.
 
-  Oleme Vanalinna Hariduskolleegiumi inseneeria klassi õpilased ja ehitame Greenpoweri elektriautosid.
+  title2: Mis on MATIK?
+  text2: MATIK on viiel valdkonnal tuginev õpe mis ühendab matemaatika, tehnoloogia, teaduse, inseneeria ja kunstid. Programmi eesmärk on anda õpilastele võimalus rakendada klassiruumis õpitud teooriat päriselu olukordades. Üks VHK MATIKu eripäradest on see, et õpilased peavad töötama ühtsete meeskondadena, mis annab neile võimaluse õppida kuidas koordineerida koostööd ja juhtida omaenda ettevõtet.
 
-
-
-  Neljaks tiimiks jaotununa, kus igal tiimil on oma auto, saame kokku regulaarselt kord nädalas, aga suur osa tööst toimub ka väljaspool tundi.
-
-
-
-  Oleme varem käinud juba kaks korda UK-s võistlemas, ja kavatseme minna ka tuleval kevadel.
-
-
-
-  ## Mis asi on MATIK?
-
-
-
-  MATIK (e. STEM) on akronüüm, mis tähendab matemaatika, tehnika, teadus, inseneeria ja kunst. See tähistab õppetööd või tundi, kus projekti tegemise käigus on vaja kasutada neid teadmisi. Lisaks VHK Matik lisakursusel on vaja ka tugevat meeskonna töö, turunduse ning probleemide lahendamise oskuseid. Kursuse eesmärk on pakkuda inseneeria õpilastele praktilist kogemust.
-  "
+  title3: Saavutused
+  text3: "Senini oleme me võistelnud kolmel korral Greenpoweri võistlustel:"
+  
+  list: 
+    - • F24+ Round 6 - Lotus Hethel 2023
+    - • F24 International Final 2023
+    - • F24+ Round 13 - International Final 2024
 
 teamsTitle: Meeskonnad
 learnMore: Loe rohkem
-
-juppTitle: Üks Jupp
-jupp: Hetkel vanim tiim Matik-us, kes võistles F24+ Greenpoweri finaalis autoga Weiko Kalew ja sai 32. koha 37-st. Tiim jätkab auto täiustamist, et saavutada veelgi kõrgemaid tulemusi.
 
 cotton: 2023 sügisel asutatud uus tiim.
 

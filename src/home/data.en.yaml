@@ -9,34 +9,23 @@ hero:
 
 sponsorsTitle: Sponsors
 
-aboutUsAsMarkdown: "
-  # About Us
+aboutUs: 
+  title: About Us
+  text: VHK STEM course is an extracurricular activity for the high school students in the Old Town Educational College of Tallinn which is available to students studying in the engineering field. The program is divided into 4 groups where each team works on one Greenpower car. In a team, each member has their own responsibilities – from working on the car's design and mechanics to marketing and branding.
 
-  VHK STEM is a Greenpower STEM class for high school students in the engineering class which operates as an extracurricular activity in the Old Town Educational College secondary education's engineering class' curriculum.
+  title2: What is STEM?
+  text2: STEM is an acronym for a study method which combines Science, Technology, Engineering, and Mathematics. The objective of the program is to give students the ability to exercise theory learnt in a classroom and apply it in real life situations. A specialty of VHK STEM is that the students are put into a group environment which gives them the means to gain experience on how to coordinate workflow and run an enterprise of their own.
 
-
-
-  VHK STEM is divided into 4 teams where each team works on one Greenpower car. In a team, each member has their own responsibilities: from working on the car's design to marketing and branding. VHK STEM program gets students from theoretical classes to work on practical projects while cultivating a harmonious team.
-
-
-
-  We have already competed twice in the UK and plan to go again next spring 2024.
-
-
-
-  ## What does STEM mean?
-
-
-
-  STEM stands for Science, Technology, Engineering, and Mathematics. The goal of the program is to get students interested in STEM fields and to give them practical experience in engineering. In addition in VHK Matik, students get the experience of working in a team, doing marketing, and solving practical problems.
-
-  "
+  title3: Achievements
+  text3: "So far we have competed in three different Greenpower competitions:"
+  
+  list: 
+    - F24+ Round 6 - Lotus Hethel 2023
+    - F24 International Final 2023
+    - F24+ Round 13 - International Final 2024
 
 teamsTitle: Teams
 learnMore: Learn more
-
-juppTitle: 1 Jupp
-jupp: Currently the oldest team who competed 32nd out of 37th in the F24+ Greenpower Finals with the car Weiko Kalew. The team is still continuing to improve the car to reach even newer heights.
 
 cotton: A new team established in the fall of 2023.
 

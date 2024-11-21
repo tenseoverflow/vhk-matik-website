@@ -7,8 +7,6 @@ nav:
   #   title: Contact
   #   url: /contact
   teams:
-    - title: 1Jupp
-      url: /teams/jupp
     - title: BeeGreen
       url: /teams/beegreen
     - title: Vurts
@@ -23,9 +21,9 @@ nav:
   sponsor:
     title: Sponsor
     url: /sponsor
-#   archive:
-#     title: Archive
-#     url: /archive
+  archive:
+    title: Archive
+    url: /archive
 
 footer:
   sitemap: "Sitemap"

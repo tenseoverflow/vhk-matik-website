@@ -1,7 +1,7 @@
-path: "/teams/jupp"
+path: "/archive/jupp"
 
 aliases:
-  - "/en/teams/jupp"
+  - "/en/archive/jupp"
 
 hero:
   title: 1Jupp RC
@@ -25,10 +25,6 @@ members:
     role: "Website Development"
     image: "/assets/onejupp/IMG_3528.webp"
     imageChange: "/assets/onejupp/IMG_3532.webp"
-  - name: "Tristjan Lutter"
-    role: "Electronics"
-    image: "/assets/onejupp/IMG_3506.webp"
-    imageChange: "/assets/onejupp/IMG_3510.webp"
   - name: "Georg Pärtel Põldmäe"
     role: "Leader, Aerodynamics & Bodywork"
     image: "/assets/onejupp/IMG_3523.webp"
@@ -37,3 +33,22 @@ members:
     role: "Bodywork"
     image: "/assets/onejupp/IMG_3515.webp"
     imageChange: "/assets/onejupp/IMG_3521.webp"
+  - name: "Tristjan Lutter"
+    role: "Electronics"
+    image: "/assets/onejupp/IMG_3506.webp"
+    imageChange: "/assets/onejupp/IMG_3510.webp"
+  - name: "Joonatan Jürisson"
+    role: "Telemetry"
+    image: "/assets/onejupp/IMG_3501.webp"
+    imageChange: "/assets/onejupp/IMG_3504.webp"
+  - name: "Marti Zupping"
+    role: "Telemetry"
+    image: "/assets/onejupp/IMG_3496.webp"
+    imageChange: "/assets/onejupp/IMG_3500.webp"
+  - name: "Henri Turban"
+    role: "Aerodynamics"
+    image: "/assets/onejupp/IMG_3511.webp"
+    imageChange: "/assets/onejupp/IMG_3514.webp"
+
+achievements:
+  text:

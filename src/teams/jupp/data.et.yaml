@@ -1,4 +1,4 @@
-path: "/tiimid/jupp"
+path: "/arhiiv/jupp"
 
 hero:
   title: ÜksJupp rallitiim
@@ -22,10 +22,6 @@ members:
     role: "Veebisaidi arendaja"
     image: "/assets/onejupp/IMG_3528.webp"
     imageChange: "/assets/onejupp/IMG_3532.webp"
-  - name: "Tristjan Lutter"
-    role: "Elektroonika"
-    image: "/assets/onejupp/IMG_3506.webp"
-    imageChange: "/assets/onejupp/IMG_3510.webp"
   - name: "Georg Pärtel Põldmäe"
     role: "Juht, aerodünaamika ja keretööd"
     image: "/assets/onejupp/IMG_3523.webp"
@@ -34,3 +30,22 @@ members:
     role: "Keretööd"
     image: "/assets/onejupp/IMG_3515.webp"
     imageChange: "/assets/onejupp/IMG_3521.webp"
+  - name: "Tristjan Lutter"
+    role: "Elektroonika"
+    image: "/assets/onejupp/IMG_3506.webp"
+    imageChange: "/assets/onejupp/IMG_3510.webp"
+  - name: "Joonatan Jürisson"
+    role: "Telemeetria"
+    image: "/assets/onejupp/IMG_3501.webp"
+    imageChange: "/assets/onejupp/IMG_3504.webp"
+  - name: "Marti Zupping"
+    role: "Telemeetria"
+    image: "/assets/onejupp/IMG_3496.webp"
+    imageChange: "/assets/onejupp/IMG_3500.webp"
+  - name: "Henri Turban"
+    role: "Aerodünaamika"
+    image: "/assets/onejupp/IMG_3511.webp"
+    imageChange: "/assets/onejupp/IMG_3514.webp"
+
+achievementsList:
+  achievements:
