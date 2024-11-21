@@ -56,7 +56,7 @@ h3
 .team-item
     display: flex
     flex-direction: row
-    flex-wrap: wrap
+    //flex-wrap: wrap
     justify-content: normal
     align-items: flex-start
     align-content: flex-start
@@ -89,6 +89,7 @@ h3
 
 .media-item > img, iframe
     border-radius: 20px
+    max-width: 100%
 
 .blog-preview
     // box-shadow: 10px 10px 20px #121212, -10px -10px 20px #3c3c3c
@@ -114,12 +115,18 @@ h3
     margin: 2rem 0 0 0
 
 // Mobile view - portrait
-@media (max-device-width: 30em)
+@media (max-device-width: 55em)
     .content
         width: 90%
 
     .sponsor-images
         padding: 0;
+
+    .team-item
+        flex-direction: column
+
+    .team-item > img
+        max-width: 100%
 
     // h1
     //     font-size: 2rem;

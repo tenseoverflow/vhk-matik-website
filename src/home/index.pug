@@ -84,7 +84,9 @@ block content
         .blog-preview.container.container-m
             h1= self.blogTitle
             .blog-preview-post!= self.md(self.data.articles[0])
-            a.blog-link.link-button(href=self.nav.blog.url)= self.readMore
+
+            div(style="width: 100%; display: flex; justify-content: center;")
+                 a.blog-link.link-button(href=self.nav.blog.url)= self.readMore
 
         .donate
             h1= self.donateTitle
