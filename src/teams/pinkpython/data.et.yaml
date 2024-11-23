@@ -33,6 +33,6 @@ members:
     role: "Turundus, sponsorid"
     image: "/assets/avatar.webp"
   - name: "Lizett Vahter"
-    role: "Veebileht, telemeetria"
+    role: "Veebileht"
     image: "/assets/avatar.webp"
 

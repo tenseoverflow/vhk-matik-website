@@ -38,6 +38,6 @@ members:
     role: "Marketing, sponsors"
     image: "/assets/avatar.webp"
   - name: "Lizett Vahter"
-    role: "Website, telemetry"
+    role: "Website"
     image: "/assets/avatar.webp"
 
