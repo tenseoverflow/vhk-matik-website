@@ -1,6 +1,6 @@
-# VHKmatik-Website
+# VHK STEM Website
 
-Created using [Entu Site](https://entu.site/)
+Created using [Entu SSG](https://entu.site/)
 
 ## Requirements
 
@@ -46,7 +46,7 @@ Exit via `Ctrl + C`.
 
 The website will be running on port 4000: [http://localhost:4000/](http://localhost:4000)
 
-### Blog posts
+## Blog posts
 
 To add a blog post create a new **.md** file in the `blog_posts_et`(estonian) or `blog_posts_en`(english) folder, depending on language.\
 The file name **needs** to be `[number]_[date].md`.\
