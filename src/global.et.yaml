@@ -7,8 +7,6 @@ nav:
   #   title: Kontakt
   #   url: /et/kontakt
   teams:
-    - title: 1Jupp
-      url: /et/tiimid/jupp
     - title: BeeGreen
       url: /et/tiimid/beegreen
     - title: Vurts
@@ -23,9 +21,9 @@ nav:
   sponsor:
     title: Sponsor
     url: /et/sponsor
-#   archive:
-#     title: Arhiiv
-#     url: /et/arhiiv
+  archive:
+    title: Arhiiv
+    url: /et/arhiiv
 
 footer:
   sitemap: "Lingid"

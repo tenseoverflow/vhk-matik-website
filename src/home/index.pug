@@ -28,29 +28,35 @@ block content
                     img(src="/assets/espak_logo.png" alt="Espak logo")
                 
 
-        .about-us.container.container-m!= self.md(self.aboutUsAsMarkdown)
+        .about-us.container.container-m
+            h1= self.aboutUs.title
+            p= self.aboutUs.text
+
+            h2= self.aboutUs.title2
+            p= self.aboutUs.text2
+
+            h2= self.aboutUs.title3
+            p= self.aboutUs.text3
+
+            ul
+                each achievement in self.aboutUs.list
+                    li= achievement
 
         .container.container-m
             h1= self.teamsTitle
             .teams
-                .jupp.team-item
-                    img(src="/assets/onejupp/P2400708.webp" alt="1 Jupp team photo")
-                    .team-item-content
-                        h2= self.juppTitle
-                        p= self.jupp
-                        a.link-button(href=self.nav.teams[0].url)= self.learnMore
                 .beegreen.team-item
                     img(src="/assets/beegreen/hero.webp" alt="Beegreen team logo")
                     .team-item-content
                         h2 Beegreen
                         p= self.beegreen
-                        a.link-button(href=self.nav.teams[1].url)= self.learnMore
+                        a.link-button(href=self.nav.teams[0].url)= self.learnMore
                 .cotton.team-item
                     img(src="/assets/pinkpython/image_123650291.webp" alt="Pink Python team's car on test track")
                     .team-item-content
                         h2 Cotton Candy Cruiser
                         p= self.cotton 
-                        a.link-button(href=self.nav.teams[4].url)= self.learnMore
+                        a.link-button(href=self.nav.teams[3].url)= self.learnMore
 
         .container.container-m
             h1= self.mediaTitle
