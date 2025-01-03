@@ -9,12 +9,12 @@ nav:
   teams:
     - title: BeeGreen
       url: /et/tiimid/beegreen
-    - title: Vurts
-      url: /et/tiimid/vurts
-    - title: Estimators
-      url: /et/tiimid/estimators
     - title: Cotton Candy Cruiser
       url: /et/tiimid/pinkpython
+    - title: Estimators
+      url: /et/tiimid/estimators
+    - title: Vurts
+      url: /et/tiimid/vurts
   blog:
     title: Blogi
     url: /et/blogi

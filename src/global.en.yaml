@@ -9,12 +9,12 @@ nav:
   teams:
     - title: BeeGreen
       url: /teams/beegreen
-    - title: Vurts
-      url: /teams/vurts
-    - title: Estimators
-      url: /teams/estimators
     - title: Cotton Candy Cruiser
       url: /teams/pinkpython
+    - title: Estimators
+      url: /teams/estimators
+    - title: Vurts
+      url: /teams/vurts
   blog:
     title: Blog
     url: /blog
